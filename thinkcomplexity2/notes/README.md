@@ -2,7 +2,7 @@
 
 > Allen B. Downey, Version 2.6.3, Green Tea Press
 >
-> 📍 当前进度：**9/12** | 下次：**第十章 · 群体、集群和交通堵塞**
+> 📍 当前进度：**12/12** ✅ 全部完成 | 🎉
 
 ## 章节索引
 
@@ -17,10 +17,10 @@
 | [7](chapter-07-physical-modeling.md) | 物理建模（扩散、反应-扩散、渗流、相变、分形） | ✅ |
 | [8](chapter-08-self-organized-criticality.md) | 自组织临界性（沙堆模型、粉红噪声、还原论与整体论） | ✅ |
 | [9](chapter-09-agent-based-models.md) | 基于代理的模型（Schelling 隔离模型、Sugarscape、涌现） | ✅ |
-| 10 | 群体、集群和交通堵塞（Boids、涌现与自由意志） | ⬜ |
-| 11 | 进化（适应度景观、突变、物种形成） | ⬜ |
-| 12 | 合作的进化（囚徒困境、锦标赛模拟） | ⬜ |
-| A | 阅读清单 | ⬜ |
+| [10](chapter-10-herds-flocks-traffic.md) | 群体、集群和交通堵塞（Boids、涌现与自由意志） | ✅ |
+| [11](chapter-11-evolution.md) | 进化（适应度景观、突变、物种形成） | ✅ |
+| [12](chapter-12-evolution-of-cooperation.md) | 合作的进化（囚徒困境、锦标赛模拟） | ✅ |
+| [A](appendix-a-reading-list.md) | 阅读清单 | ✅ |
 
 ## 贯穿全书的主题
 

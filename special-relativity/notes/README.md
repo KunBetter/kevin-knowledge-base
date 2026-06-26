@@ -2,22 +2,22 @@
 
 > 王一（Yi Wang）, PHYS 2022, Department of Physics, HKUST
 >
-> 📍 当前进度：**0/10** | 下次：**第一节 · 相对性原理**
+> 📍 当前进度：**10/10** ✅ 全部完成 | 🎉
 
 ## 章节索引
 
 | 章节 | 标题 | 状态 |
 |------|------|------|
-| [1](chapter-01-relativity-principle.md) | 相对性原理与光速不变（Relativity Principle & Speed of Light） | ⬜ |
-| [2](chapter-02-time-dilation.md) | 时间膨胀（Time Dilation） | ⬜ |
-| [3](chapter-03-length-contraction.md) | 长度收缩与速度叠加（Length Contraction & Velocity Addition） | ⬜ |
-| [4](chapter-04-simultaneity.md) | 同时性的相对性与因果律（Simultaneity & Causality） | ⬜ |
-| [5](chapter-05-ladder-paradox.md) | 梯子悖论（The Ladder Paradox） | ⬜ |
-| [6](chapter-06-lorentz-transformation.md) | 洛伦兹变换（The Lorentz Transformation） | ⬜ |
-| [7](chapter-07-spacetime-geometry.md) | 时空几何（The Geometry of Spacetime） | ⬜ |
-| [8](chapter-08-relativistic-momentum-energy.md) | 相对论动量与能量（Relativistic Momentum & Energy） | ⬜ |
-| [9](chapter-09-epilogue.md) | 总结与展望（Epilogue: Summary & What's Next） | ⬜ |
-| [10](chapter-10-exercises.md) | 习题（Exercises） | ⬜ |
+| [1](chapter-01-relativity-principle.md) | 相对性原理与光速不变（Relativity Principle & Speed of Light） | ✅ |
+| [2](chapter-02-time-dilation.md) | 时间膨胀（Time Dilation） | ✅ |
+| [3](chapter-03-length-contraction.md) | 长度收缩与速度叠加（Length Contraction & Velocity Addition） | ✅ |
+| [4](chapter-04-simultaneity.md) | 同时性的相对性与因果律（Simultaneity & Causality） | ✅ |
+| [5](chapter-05-ladder-paradox.md) | 梯子悖论（The Ladder Paradox） | ✅ |
+| [6](chapter-06-lorentz-transformation.md) | 洛伦兹变换（The Lorentz Transformation） | ✅ |
+| [7](chapter-07-spacetime-geometry.md) | 时空几何（The Geometry of Spacetime） | ✅ |
+| [8](chapter-08-relativistic-momentum-energy.md) | 相对论动量与能量（Relativistic Momentum & Energy） | ✅ |
+| [9](chapter-09-epilogue.md) | 总结与展望（Epilogue: Summary & What's Next） | ✅ |
+| [10](chapter-10-exercises.md) | 习题（Exercises） | ✅ |
 
 ## 讲义特色
 
