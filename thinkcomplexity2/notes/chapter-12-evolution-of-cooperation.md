@@ -9,6 +9,14 @@
 ### Original Text — 经典设定
 
 > *"Two members of a criminal gang are arrested and imprisoned. Each prisoner is in **solitary confinement** with no means of communicating with the other. The prosecutors lack sufficient evidence to convict the pair on the principal charge, but they have enough to convict both on a **lesser charge**. Simultaneously, the prosecutors offer each prisoner a bargain."*
+> 一个犯罪团伙的两名成员被逮捕并关押。每名囚犯都被**单独监禁**，彼此之间没有任何沟通手段。检察官缺乏足够的证据以主要罪名定罪二人，但有足够证据以一项**较轻的罪名**定罪。与此同时，检察官向每名囚犯提供了一项交易。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| solitary confinement | 单独监禁，囚犯被完全隔离，无法与外界或同伙交流 |
+| principal charge | 主要罪名，指更严重的犯罪指控 |
+| lesser charge | 较轻的罪名，检察官的退而求其次——他们真正想要的是让囚犯互相揭发 |
+| bargain | 交易/协议，此处指检察官提出的"背叛换减刑"的诱人条件 |
 
 ### 收益矩阵 (Payoff Matrix)
 
@@ -24,8 +32,27 @@
 > - *If B defects, A is **still better off defecting**; she would serve only 2 years rather than 3.*
 >
 > *"**No matter what B does**, A is better off defecting. And because the game is **symmetric**, this analysis is the same from B's point of view."*
+> 从**A的视角**来看：
+> - 如果B保持沉默，A**选择背叛更划算**——她可以直接获释，而不是服刑1年。
+> - 如果B也选择背叛，A**仍然选择背叛更划算**——她只需服刑2年而非3年。
+>
+> **无论B怎么做**，A选择背叛都更有利。而由于博弈是**对称的**，从B的视角分析也是同样的结论。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| better off | 更有利/更划算，在博弈论中指获得更高的收益 |
+| No matter what | 无论……如何，这是"占优策略"的核心逻辑——对手的任何选择都不能改变结论 |
+| symmetric | 对称的，博弈论中指双方收益矩阵完全相同，角色完全可互换 |
+| defecting | 背叛，囚徒困境中指揭发同伙以换取个人减刑 |
 
 > *"Under those assumptions, the **rational choice** for both agents is to defect. But for the prisoners, it is frustrating because there is, apparently, **nothing** they can do to achieve the outcome they both want."*
+> 在这些假设下，双方代理的**理性选择**都是背叛。但对囚犯来说，这令人沮丧——因为表面上，他们**没有任何办法**实现双方都想要的结果（即双方合作、各判1年）。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| rational choice | 理性选择，博弈论中基于个人收益最大化的计算得出的最优决策 |
+| frustrating | 令人沮丧的，因为个体理性导致集体次优结果——这正是囚徒困境的悲剧性所在 |
+| outcome they both want | 双方共同期望的结果，即（合作，合作），各判1年，这是帕累托优于（背叛，背叛）的结果 |
 
 ### 🔬 Python — 囚徒困境收益计算
 
@@ -71,18 +98,6 @@ If opponent plays D:
     defecting always yields a higher score.
 ```
 
-### 🔑 Key Vocabulary
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| Prisoner's Dilemma | 囚徒困境 | classic game theory scenario about cooperation vs self-interest |
-| cooperate (C) | 合作 / 保持沉默 | remain silent / act for mutual benefit |
-| defect (D) | 背叛 / 告发 | betray the other for personal gain |
-| dominant strategy | 占优策略 | always best regardless of opponent's choice |
-| Nash equilibrium | 纳什均衡 | (D,D) — neither can unilaterally improve |
-| solitary confinement | 单独监禁 | no communication possible |
-| symmetric game | 对称博弈 | payoffs are the same from either player's perspective |
-
 ---
 
 ## 📖 12.2 "好人"问题 (The Problem of Nice)
@@ -90,6 +105,14 @@ If opponent plays D:
 ### Original Text — 实验观察
 
 > *"If we assume that people are smart enough to do the analysis and that they generally act in their own interest, we would expect them to defect pretty much all the time. **But they don't.** In most experiments, subjects **cooperate much more** than the rational agent model predicts."*
+> 如果我们假设人们足够聪明来做上述分析，并且通常按照自身利益行事，我们会预期他们几乎总是选择背叛。**但他们并没有。**在大多数实验中，受试者的**合作频率远高于**理性代理模型的预测。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| act in their own interest | 按自身利益行事，博弈论中"理性人"假设的核心 |
+| subjects | 受试者，行为经济学和实验博弈论中参与实验的人类被试 |
+| rational agent model | 理性代理模型，预测每个人都会选择占优策略（背叛）的理论模型 |
+| cooperate much more | 合作频率远高于预测，这是行为经济学经典发现——人类并非纯粹自私的理性计算器 |
 
 ### 为什么人们会合作？追问链条
 
@@ -103,8 +126,23 @@ If opponent plays D:
 ### Original Text — 利他主义的核心悖论
 
 > *"If, under natural selection, animals are in **constant competition** with each other to survive and reproduce, it seems obvious that altruism would be **counterproductive**. In a population where some people help others, even to their own detriment, and others are purely selfish, it seems like the selfish ones would benefit, the altruistic ones would suffer, and the **genes for altruism would be driven to extinction**."*
+> 如果在自然选择下，动物之间为生存和繁衍而处于**持续竞争**中，那么利他主义显然是**适得其反**的。在一个群体中，如果一些人帮助他人——甚至不惜损害自身利益——而另一些人纯粹自私，那么看起来自私者会获益，利他者会受损，**利他主义的基因将被推向灭绝**。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| natural selection | 自然选择，达尔文进化论的核心机制——适者生存、不适者淘汰 |
+| constant competition | 持续竞争，生物个体之间为有限资源（食物、配偶、领地）的永恒斗争 |
+| counterproductive | 适得其反/反生产力的，在此指利他行为降低而非提高个体的生存适应性 |
+| to their own detriment | 损害自身利益，这是利他主义的定义性特征——施惠者付出代价 |
+| driven to extinction | 被推向灭绝，在进化意义上指携带该基因的个体数量逐渐减少直至消失 |
 
 > *"This apparent contradiction is the **'problem of altruism'**: why haven't the genes for altruism died out?"*
+> 这一明显的矛盾就是**"利他主义问题"**：为什么利他的基因至今尚未消亡？
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| apparent contradiction | 明显的矛盾，指自然选择应该淘汰利他基因，但现实中利他行为普遍存在 |
+| died out | 消亡/灭绝，进化生物学中指某个性状或基因在种群中完全消失 |
 
 ### 传统解释 vs 本章的假说
 
@@ -117,18 +155,13 @@ If opponent plays D:
 | **本章假说** | **利他主义本身就是适应性的**（adaptive） |
 
 > *"Maybe genes for altruism make people **more likely** to survive and reproduce. It turns out that the Prisoner's Dilemma, which **raises** the problem of altruism, might also help **resolve** it."*
+> 也许利他基因使人们**更有可能**生存和繁衍。事实证明，囚徒困境——这个**提出了**利他主义问题的模型——或许也能帮助我们**解决**它。
 
-### 🔑 Key Vocabulary
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| altruism | 利他主义 | helping others at a cost to oneself |
-| reciprocal altruism | 互惠利他 | "I'll help you if you help me" |
-| kin selection | 亲缘选择 | helping relatives promotes shared genes |
-| group selection | 群体选择 | groups with altruists outcompete purely selfish groups |
-| adaptive | 适应性的 | increasing survival/reproduction probability |
-| innate | 先天的 | inborn, genetically influenced |
-| proclivity | 倾向 | natural inclination |
+| 单词/短语 | 注释 |
+|-----------|------|
+| more likely | 更有可能，指提高生存和繁殖的概率——这是适应性的核心含义 |
+| raises | 提出/引发，囚徒困境的经典分析揭示了合作在理性上不可行，从而"制造"了利他主义问题 |
+| resolve | 解决/化解，当博弈从单次变为迭代时，合作反而可能成为进化上的优势策略 |
 
 ---
 
@@ -137,16 +170,43 @@ If opponent plays D:
 ### Original Text
 
 > *"In the late 1970s **Robert Axelrod**, a political scientist at the University of Michigan, organized a **tournament** to compare strategies for playing Prisoner's Dilemma. He invited participants to submit strategies in the form of computer programs, then played the programs against each other and kept score."*
+> 20世纪70年代末，密歇根大学的政治学家**罗伯特·阿克塞尔罗德**组织了一场**锦标赛**来比较囚徒困境的策略。他邀请参赛者以计算机程序的形式提交策略，然后让这些程序互相博弈并计分。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| tournament | 锦标赛，多个策略以循环赛制互相对抗，按总得分排名 |
+| submit strategies | 提交策略，参赛者编写程序定义在每种历史情境下应该合作还是背叛 |
+| kept score | 计分/累计得分，每轮博弈的收益累加决定最终排名 |
 
 > *"They played the **iterated** version of PD, in which the agents play **multiple rounds** against the same opponent, so their decisions can be based on **history**."*
+> 他们玩的是**迭代版**囚徒困境——代理与同一个对手进行**多轮**博弈，因此他们的决策可以基于**历史记录**。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| iterated | 迭代的/多次重复的，这是使合作成为可能的关键转变——单次博弈没有未来，迭代博弈有"影子" |
+| multiple rounds | 多轮，迭代博弈中每一轮都是一次完整的囚徒困境选择，但代理知道还会与同一对手继续博弈 |
+| history | 历史记录，代理可以观察对手之前的行为模式并据此调整策略 |
 
 ### TFT (Tit for Tat) 策略
 
 > *"TFT always **cooperates** during the first round of an iterated match; after that, it **copies** whatever the opponent did during the previous round. If the opponent keeps cooperating, TFT keeps cooperating. If the opponent defects at any point, TFT defects in the next round. But if the opponent goes back to cooperating, so does TFT."*
+> TFT在迭代比赛的第一轮总是**合作**；此后，它完全**复制**对手在上一轮的行为。如果对手持续合作，TFT也持续合作。如果对手在任何一轮背叛，TFT在下一轮就背叛。但如果对手恢复合作，TFT也同样恢复合作。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| Tit for Tat | 以牙还牙/一报还一报，这个策略仅需记住对手上一轮做了什么——极其简单但极其有效 |
+| copies | 复制/镜像，TFT不做任何预测或复杂计算，只是机械地回应——这种简单性反而是优势 |
+| goes back to cooperating | 恢复合作，TFT不记仇——对手回头，它也回头——这体现了"宽恕"特征 |
 
 ### 成功策略的四个特征
 
 > *"Looking at the strategies that did well in these tournaments, Axelrod identified the characteristics they tended to share:"*
+> 考察在这些锦标赛中表现优异的策略，阿克塞尔罗德识别出了它们倾向于共有的特征：
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| did well | 表现优异，指在锦标赛中获得较高总分的策略 |
+| tended to share | 倾向于共有，不是所有成功策略都完美具备所有特征，而是统计上显著共享这些属性 |
 
 | 特征 | English | 含义 |
 |------|---------|------|
@@ -156,6 +216,11 @@ If opponent plays D:
 | **不嫉妒** | Non-envious | 不追求比对手得分更高，只要自己表现好 |
 
 > *"TFT has **all** of these properties."*
+> TFT具备**全部**这些属性。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| all of these properties | 全部属性，TFT是唯一同时满足友善、报复、宽恕、不嫉妒四条标准的策略，这解释了它的成功 |
 
 ### 🔬 Python — 实现 TFT 及其他策略
 
@@ -358,8 +423,21 @@ class PDSimulation:
 ### 初始实验
 
 > *"Suppose we start with a population of three agents: one always cooperates, one always defects, and one plays TFT. The cooperator gets **1.5** points per round, the TFT agent gets **1.9**, and the defector gets **3.33**. This result suggests that 'always defect' should quickly become the dominant strategy."*
+> 假设我们从三个代理的群体开始：一个永远合作，一个永远背叛，一个采用TFT。合作者每轮获得**1.5**分，TFT代理获得**1.9**分，而背叛者获得**3.33**分。这个结果表明，"永远背叛"应该迅速成为占优策略。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| points per round | 每轮得分，即适应度——多次博弈中平均每轮获得的收益 |
+| dominant strategy | 占优策略，在给定种群构成中收益最高、最可能通过选择扩散的策略 |
 
 > *"But 'always defect' contains the **seeds of its own destruction**. If nicer strategies are driven to extinction, the defectors have **no one to take advantage of**. Their fitness drops, and they become **vulnerable to invasion** by cooperators."*
+> 但"永远背叛"包含了**自我毁灭的种子**。如果更友善的策略被推向灭绝，背叛者就**没有人可以剥削了**。他们的适应度下降，变得**容易被合作者入侵**。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| seeds of its own destruction | 自我毁灭的种子，背叛策略的成功依赖于有合作者可以剥削——消灭合作者也就消灭了自己的优势来源 |
+| no one to take advantage of | 无人可以剥削，当所有代理都是背叛者时，他们只能互相背叛，每人都只得到低收益 |
+| vulnerable to invasion | 容易被入侵，在低适应度的情况下，任何通过突变出现的友好策略都可能获得更高的相对适应度 |
 
 ### 5000 步模拟结果
 
@@ -372,6 +450,13 @@ class PDSimulation:
 | 之后 | 在 2~3 之间**震荡**，长期均值约 **2.5** |
 
 > *"It's not quite a **utopia** of cooperation, which would average 3 points per round, but it's a long way from the **dystopia** of perpetual defection."*
+> 这并非一个每轮平均3分的合作**乌托邦**，但距离持续背叛的**反乌托邦**已经非常遥远了。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| utopia of cooperation | 合作乌托邦，每个代理每轮都合作、每对都得3分——这是理论上的最优集体结果 |
+| dystopia of perpetual defection | 持续背叛的反乌托邦，每对代理每轮只得1分——这是所有人都采用占优策略的悲惨世界 |
+| a long way from | 远远不同于/离……很遥远，强调进化自发地使系统远离了最坏均衡 |
 
 ### 🔬 Python — 友好度与开场监测
 
@@ -409,6 +494,13 @@ class Retaliating(Instrument):
 | **报复性** | 在面对 D 后背叛的概率仅比面对 C 后高 ~0.1 → 弱报复信号 |
 
 > *"This result provides **weak support** for the claim that successful strategies retaliate. But maybe it's not necessary for **all** agents, or even many, to be retaliatory; if there is at least **some** tendency toward retaliation in the population as a whole, that might be enough to prevent high-defection strategies from gaining ground."*
+> 这一结果为"成功策略具有报复性"的论断提供了**弱支持**。但也许并非**所有**代理——甚至不需要很多代理——都必须具有报复性；只要群体整体上存在**一些**报复倾向，可能就足以阻止高背叛策略扩散。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| weak support | 弱支持，数据中报复信号存在但不够强烈——这是一个值得注意的"适度的"结论 |
+| retaliatory | 报复性的，在囚徒困境中指用背叛回应背叛的倾向 |
+| gaining ground | 扩散/占据优势，进化中指某个策略在种群中所占比例持续增加 |
 
 ### 🔬 完整模拟可视化
 
@@ -460,8 +552,22 @@ def run_pd_evolution(n_agents=100, n_steps=5000):
 ### Original Text
 
 > *"Axelrod's tournaments suggest a possible resolution to the problem of altruism: maybe being **nice, but not too nice**, is adaptive. But the strategies in the original tournaments were **designed by people**, not evolution, and the distribution of strategies did not change over the course of the tournaments."*
+> 阿克塞尔罗德的锦标赛为利他主义问题提供了一种可能的解决：也许**友善，但不过度友善**，是适应性的。但原始锦标赛中的策略是**由人设计**的，而非由进化产生的，并且策略的分布在锦标赛过程中并没有发生变化。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| nice, but not too nice | 友善但不过度友善，这是全书最精辟的一句话——纯粹无私会被剥削，纯粹背叛会自我毁灭，适度友善才是进化稳定之道 |
+| designed by people | 由人设计的，Axelrod锦标赛中的策略是人类智慧的产品，不是通过变异+选择自发产生的 |
+| distribution of strategies | 策略的分布/构成，在原始锦标赛中策略集合是固定的——而进化模拟中策略的构成随每一代而变化 |
 
 > 核心问题：*"Strategies like TFT might do well in a fixed population of human-designed strategies, but can they **evolve**? In other words, can they **appear** in a population through mutation, **compete** successfully with their ancestors, and **resist invasion** by their descendants?"*
+> 像TFT这样的策略可能在固定的人类设计策略群体中表现出色，但它们能否**进化出来**？换句话说，它们能否通过突变在一个群体中**出现**，成功地与祖先**竞争**，并**抵御**后代的**入侵**？
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| evolve | 进化/自发出现，不同于"被设计"——关键在于策略能否从随机变异中自然涌现 |
+| appear through mutation | 通过突变出现，进化论的核心：新性状不是被创造的，而是随机变异后经受选择考验 |
+| resist invasion | 抵御入侵，进化稳定策略(ESS)的定义性特征——一旦建立，不能被任何突变体取代 |
 
 ### 模拟揭示的关键结论
 
@@ -474,12 +580,32 @@ def run_pd_evolution(n_agents=100, n_steps=5000):
 | 一定程度的报复是适应性的 | 不需要所有代理都报复——群体层面的报复倾向足矣 |
 
 > *"The simulations in this chapter suggest: Populations of defectors are **vulnerable** to invasion by nicer strategies. Populations that are too nice are **vulnerable** to invasion by defectors. As a result, the average level of niceness **oscillates**, but the average amount of niceness is generally high, and the average level of fitness is generally closer to a **utopia of cooperation** than to a **dystopia of defection**."*
+> 本章的模拟表明：背叛者群体**容易被**更友善的策略入侵。过度友善的群体**容易被**背叛者入侵。结果，友好度的平均水平**震荡**，但平均友善程度普遍较高，而平均适应度水平通常更接近一个**合作乌托邦**而非**背叛的反乌托邦**。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| vulnerable to invasion | 容易被入侵的，进化动力学中指一种策略构成无法抵抗另一种策略的扩散 |
+| oscillates | 震荡，系统不会收敛到固定点——合作与背叛的比例持续波动，形成永不停息的动态平衡 |
+| utopia of cooperation | 合作乌托邦，见前文注释——理论上限3分/轮，模拟实际达到约2.5分/轮 |
 
 ### 最终洞见：自私的基因，利他的大脑
 
 > *"Maybe our inclinations toward cooperation, retaliation, and forgiveness are **innate**, at least in part. These characteristics are a result of how our **brains are wired**, which is controlled by our **genes**, at least in part. And maybe our genes build our brains that way because over the history of human evolution, genes for less altruistic brains were **less likely to propagate**."*
+> 也许我们合作、报复和宽恕的倾向是**先天的**，至少在某种程度上。这些特征是我们的**大脑连接方式**的结果，而这又受**基因**控制——至少在某种程度上。也许我们的基因以这种方式构建我们的大脑，是因为在人类进化史上，那些构建了较少利他大脑的基因**更不易传播**。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| innate | 先天的/与生俱来的，即由基因而非文化教养决定的——本章的核心假说之一 |
+| brains are wired | 大脑的连接方式/神经回路，基因通过控制神经发育来塑造行为倾向 |
+| less likely to propagate | 更不易传播/扩散，即携带"自私大脑"基因的个体后代更少——因为他们的群体被背叛者拖入低收益均衡 |
 
 > 🎯 ***"Maybe that's why selfish genes build altruistic brains."***
+> 🎯 ***"也许这就是为什么自私的基因建造了利他的大脑。"***
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| selfish genes | 自私的基因，道金斯的概念——基因"想要"最大化自身的复制，但实现这一目标的最佳策略竟然是建造一个利他的大脑 |
+| altruistic brains | 利他的大脑，能够产生合作、宽恕、正义感等亲社会行为的大脑——它们是基因自私性的涌现产物 |
 
 ### 🔬 全书终结：涌现视角下的人性
 

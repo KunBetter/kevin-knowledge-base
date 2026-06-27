@@ -7,8 +7,22 @@
 ### Original Text — 问题的提出
 
 > *"Moving ruler contracts. Now, is there a twin ruler paradox? If Alice and Bob each holds a ruler along their motion direction, and when they meet, they compare the length of their ruler, can they find each other's ruler shorter? How can that happen?"*
->
+> 运动的尺子会收缩。那么，是否存在一个"双尺佯谬"？如果 Alice 和 Bob 各自沿运动方向持有一把尺子，当他们相遇时比较尺子的长度，会发现对方的尺子更短吗？这怎么可能？
+| 单词/短语 | 注释 |
+|-----------|------|
+| ruler | 尺子 |
+| contracts | 收缩（长度沿运动方向缩短） |
+| paradox | 佯谬（看似矛盾实则不矛盾） |
+| motion direction | 运动方向 |
+
 > *"The key observation is that, to be fair, they have to compare the two ends of the ruler at the same time. Wait, do they have the same concept of the same time?"*
+> 关键的观察是，为了公平比较，他们必须在同一时刻比较尺子的两端。等等，他们对"同一时刻"有相同的概念吗？
+| 单词/短语 | 注释 |
+|-----------|------|
+| key observation | 关键观察（指向问题的核心） |
+| compare | 比较（两把尺子的长度） |
+| at the same time | 在同一时刻（同步比较的前提） |
+| concept | 概念（此处指"同时"这一概念是否普适） |
 
 ### 之前被忽略的暗含前提
 
@@ -17,14 +31,39 @@
 ### 同时性的操作化定义（P-O-Q 系统）
 
 > *"The meaning of simultaneity wrt an observer. Consider two small objects P and Q, not moving wrt each other. An observer is standing exactly at the midpoint of PQ, and not moving wrt PQ."*
+> 相对于观察者的同时性的含义。考虑两个小物体 P 和 Q，它们彼此之间没有相对运动。一个观察者恰好站在 PQ 的中点，且相对于 PQ 静止。
+| 单词/短语 | 注释 |
+|-----------|------|
+| wrt (with respect to) | 相对于（某个参考系或观察者） |
+| midpoint | 中点（P 和 Q 连线的正中间位置） |
+| observer | 观察者（在相对论中指特定的参考系观察者） |
+| not moving wrt each other | 彼此之间无相对运动（处于同一惯性系） |
 
 > *"This can be practically done with a static ruler: Let P be at the 0 m point, Q be at the 1 m point, and the observer at the 0.5 m point."*
+> 这可以用一把静止的尺子实际实现：让 P 在 0 m 处，Q 在 1 m 处，观察者在 0.5 m 处。
+| 单词/短语 | 注释 |
+|-----------|------|
+| practically | 实际地（可行的操作方案） |
+| static ruler | 静止的尺子（作为空间坐标的参照物） |
 
 > *"Introduce two events: event EP happens to object P; and event EQ happens to object Q. For example, EP and EQ are the turn-on time of light bulbs at P and Q, respectively."*
+> 引入两个事件：事件 EP 发生在物体 P 上；事件 EQ 发生在物体 Q 上。例如，EP 和 EQ 分别是 P 和 Q 处灯泡的点亮时刻。
+| 单词/短语 | 注释 |
+|-----------|------|
+| event | 事件（时空中一个特定的点，具有确定的时间和位置） |
+| light bulbs | 灯泡（此处用作产生光信号的装置） |
+| respectively | 分别地（EP 对应 P，EQ 对应 Q） |
 
 **同时性的判据**（对于静止观察者）：
 
 > *"If the light signal from EP and EQ reach the observer at the same time, then EP and EQ happens at the same time. Otherwise, whichever reaches the observer earlier happens earlier."*
+> 如果来自 EP 和 EQ 的光信号同时到达观察者，那么 EP 和 EQ 同时发生。否则，哪个信号先到达观察者，哪个事件就先发生。
+| 单词/短语 | 注释 |
+|-----------|------|
+| light signal | 光信号（以光速 c 传播的信号，用于同步时钟和判定同时性） |
+| reach | 到达（光信号传播到观察者位置） |
+| at the same time | 同时（此处是光信号到达观察者的同时性） |
+| whichever ... earlier | 哪个先到达，哪个先发生（同时性的操作判据） |
 
 ```
         P  ┄┄┄┄┄┄  O (观察者)  ┄┄┄┄┄┄  Q
@@ -37,17 +76,15 @@
 ### Original Text — 与坐标系时间的关系
 
 > *"Previously, we have introduced the time of a reference frame – at different positions, time are synchronized using light signals, deducting the time used for light propagation. Here, the concept of simultaneity means that EP and EQ happens at the same **coordinate time** in this static frame."*
-
-### 🔑 Key Vocabulary — 同时性定义
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| simultaneity | 同时性 | two events having the same time coordinate |
-| midpoint | 中点 | observer located exactly halfway between P and Q |
-| coordinate time | 坐标时 | time assigned to events in a given reference frame |
-| synchronized clocks | 同步时钟 | clocks at different positions that read the same frame time |
-| light signal | 光信号 | signal traveling at c, used to synchronize clocks |
-| operational definition | 操作化定义 | definition in terms of concrete measurement procedure |
+> 之前，我们引入了参考系的时间——在不同位置，时间通过光信号进行同步，并扣除光传播所用的时间。在这里，同时性的概念意味着 EP 和 EQ 在这个静止参考系中具有相同的**坐标时**。
+| 单词/短语 | 注释 |
+|-----------|------|
+| reference frame | 参考系（用于描述物理事件的坐标系+时钟网络） |
+| synchronized | 同步（通过光信号使不同位置的时钟读数一致） |
+| light propagation | 光传播（光从一处到另一处需要时间） |
+| deduct | 扣除（从信号到达时间中减去传播时间以得到事件发生的时间） |
+| coordinate time | 坐标时（参考系中为事件分配的时间坐标） |
+| static frame | 静止参考系（P-O-Q 系统在其中保持不动的参考系） |
 
 ---
 
@@ -56,6 +93,12 @@
 ### Original Text — 时空图使用规则
 
 > *"Spacetime diagrams will turn out to be useful tools in studying relativity. On a spacetime diagram:"*
+> 时空图将被证明是研究相对论的有用工具。在时空图上：
+| 单词/短语 | 注释 |
+|-----------|------|
+| spacetime diagram | 时空图（以空间为横轴、时间为纵轴的几何图示） |
+| useful tools | 有用工具（时空图是分析相对论问题的核心可视化工具） |
+| turn out to be | 被证明是（在后续使用中逐渐体现其价值） |
 
 | 元素 | 在时空图中的表现 | 说明 |
 |------|-----------------|------|
@@ -125,15 +168,6 @@ plt.savefig('/tmp/spacetime_simultaneity.png', dpi=120)
 print("Light from E_P and E_Q both arrive at O at ct=0.5 → simultaneous.")
 ```
 
-### 🔑 Key Vocabulary — 时空图
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| spacetime diagram | 时空图 | x (space) vs ct (time); events = points |
-| world line | 世界线 | trajectory of an object in spacetime |
-| 45° line | 45° 线 | light path; slope = ±1 in (x, ct) coordinates |
-| light cone | 光锥 | set of all possible light paths from an event |
-
 ---
 
 ## 📖 5.3 同时性是相对的 —— 四步推理
@@ -141,6 +175,11 @@ print("Light from E_P and E_Q both arrive at O at ct=0.5 → simultaneous.")
 ### Original Text — 核心论证
 
 > *"Simultaneity is a relative concept (4-step reasoning)"*
+> 同时性是一个相对的概念（四步推理）
+| 单词/短语 | 注释 |
+|-----------|------|
+| relative concept | 相对的概念（取决于观察者的运动状态，而非绝对的） |
+| reasoning | 推理（此处指系统的四步逻辑推演过程） |
 
 | Step | 内容 |
 |------|------|
@@ -152,6 +191,12 @@ print("Light from E_P and E_Q both arrive at O at ct=0.5 → simultaneous.")
 ### 在 Bob 的时空图中看到的结果
 
 > *"Wrt Bob, do EP and EQ happen at the same time? In other words, do EP and EQ have the same time coordinates in Bob's frame? Making use of a spacetime diagram in Bob's frame, we immediately find that **EP is earlier than EQ wrt Bob**. On the contrary, an event ẽ_Q considered to be at the same time with EP wrt Bob, is considered earlier than EP wrt Alice."*
+> 相对于 Bob，EP 和 EQ 是否同时发生？换句话说，EP 和 EQ 在 Bob 的参考系中是否具有相同的时间坐标？利用 Bob 参考系中的时空图，我们立即发现**相对于 Bob，EP 早于 EQ**。相反，一个在 Bob 看来与 EP 同时的事件 ẽ_Q，在 Alice 看来早于 EP。
+| 单词/短语 | 注释 |
+|-----------|------|
+| time coordinates | 时间坐标（事件在特定参考系中被赋予的时间值） |
+| immediately | 立即（通过几何构造可以直接看出结论） |
+| on the contrary | 相反（在 Bob 看来同时的两个事件，在 Alice 看来不同时——反之亦然） |
 
 **核心结论：**
 - 对 **Alice**（运动观察者）：E_P 和 E_Q **同时发生**
@@ -295,21 +340,20 @@ print(f"  → Simultaneity is RELATIVE (observer-dependent)!")
 ### 一个关键图像：等时切片
 
 > *"When Alice is moving wrt Bob, the coordinate system of Alice drawn in Bob's coordinate system is as the figure to the right. It is similar to rotation, but both space and time axes oddly fold inwards. We will discuss this transformation (Lorentz transformation) in more details later. You should pay special attention on the equal time lines wrt Alice on this figure – different from that wrt Bob."*
+> 当 Alice 相对于 Bob 运动时，在 Bob 的坐标系中画出 Alice 的坐标系如图所示。它类似于旋转，但空间轴和时间轴都奇怪地向内折叠。我们稍后将更详细地讨论这种变换（洛伦兹变换）。你应该特别注意此图中 Alice 的等时线——与 Bob 的等时线不同。
+| 单词/短语 | 注释 |
+|-----------|------|
+| coordinate system | 坐标系（一个观察者的空间轴和时间轴在另一个观察者图中的表现） |
+| rotation | 旋转（洛伦兹变换在几何上类似旋转但不等同于欧几里得旋转） |
+| fold inwards | 向内折叠（运动参考系的坐标轴在静止系图中向光锥方向倾斜） |
+| Lorentz transformation | 洛伦兹变换（惯性系之间的坐标变换，是同时性相对性的数学基础） |
+| equal time lines | 等时线（具有相同时间坐标的所有事件构成的线/面） |
 
 在 Bob 的时空图中：
 - **Bob 的等时线**：水平线（平行于 x 轴）
 - **Alice 的等时线**：**倾斜的线**（不平行于 x 轴）
 
 这就是同时性相对性的**几何本质**——不同观察者的"现在"切片在时空中指向不同的方向。
-
-### 🔑 Key Vocabulary — 同时性相对性
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| relativity of simultaneity | 同时性的相对性 | "same time" depends on observer's motion |
-| equal-time slice | 等时切片 | set of events with the same time coordinate in a frame |
-| fold inwards | 向内折叠 | how moving frame's axes appear in static frame's diagram |
-| Lorentz transformation | 洛伦兹变换 | the mathematical transformation between inertial frames |
 
 ---
 
@@ -318,8 +362,22 @@ print(f"  → Simultaneity is RELATIVE (observer-dependent)!")
 ### Original Text
 
 > *"In our twin paradox, Alice is not an inertial observer at the turn around time. Thus she cannot use special relativity of an inertial observer to directly explain her experience. However, Bob can help her to figure out what happens at the turn-around:"*
->
+> 在我们的双生子佯谬中，Alice 在调头时刻并不是惯性观察者。因此她不能直接使用惯性观察者的狭义相对论来解释她的体验。然而，Bob 可以帮助她弄清楚调头时发生了什么：
+| 单词/短语 | 注释 |
+|-----------|------|
+| twin paradox | 双生子佯谬（一个双生子去旅行后返回，发现留在地球的双生子更老） |
+| inertial observer | 惯性观察者（保持匀速直线运动的观察者，加速度为零） |
+| turn around | 调头（从去程切换到回程，涉及加速/减速过程） |
+| figure out | 弄清楚（通过另一个惯性系的视角来理解发生了什么） |
+
 > *"Before and after the turn-around, Alice is in two different inertial frames. **Bob's age 'jumps' when Alice switches from the before-turn-around frame to the after-turn-around frame.** Thus in Alice's frames, there is a sudden change in Bob's age."*
+> 在调头前后，Alice 处于两个不同的惯性系中。**当 Alice 从调头前的参考系切换到调头后的参考系时，Bob 的年龄会"跳跃"。**因此，在 Alice 的参考系中，Bob 的年龄发生了突变。
+| 单词/短语 | 注释 |
+|-----------|------|
+| inertial frames | 惯性参考系（Alice 去程和回程各对应一个不同的惯性系） |
+| jumps | 跳跃（Bob 的年龄在 Alice 的等时切片切换时发生不连续变化） |
+| switches | 切换（从去程惯性系转换到回程惯性系） |
+| sudden change | 突变（等时面的转向导致 Bob 的年龄突然"增加"一大段） |
 
 ### 等时切片视角解释
 
@@ -333,6 +391,14 @@ print(f"  → Simultaneity is RELATIVE (observer-dependent)!")
 这就是为什么 Alice 返回时 Bob 更老——Bob 的年龄在 Alice 调头时**跳跃**了。这个跳跃不是 Bob 实际经历的（Bob 一直匀速老化），而是 Alice 的"同时面"在调头时发生的剧变。
 
 > *"Can SR describe acceleration? There is a common misconception saying 'special relativity cannot describe the experience of an accelerating observer'. This is wrong. The laws of special relativity (time dilation, length contraction, and more later) are expressed in inertial frames (just because the laws are mathematically simpler in inertial frames). Thus, we need to use an inertial frame to apply these laws to our question. However, we can calculate in this inertial frame what an accelerating observer sees (how light reach her eyes, for example)."*
+> 狭义相对论能描述加速吗？有一种常见的误解说"狭义相对论不能描述加速观察者的体验"。这是错误的。狭义相对论的定律（时间膨胀、长度收缩以及后续更多）是在惯性系中表达的（只是因为定律在惯性系中数学上更简单）。因此，我们需要使用惯性系来将这些定律应用到我们的问题上。然而，我们可以在这个惯性系中计算加速观察者看到什么（例如，光如何到达她的眼睛）。
+| 单词/短语 | 注释 |
+|-----------|------|
+| misconception | 误解（常见的关于狭义相对论不能处理加速的错误观念） |
+| accelerating observer | 加速观察者（有非零加速度的观察者） |
+| time dilation | 时间膨胀（运动时钟走得慢） |
+| length contraction | 长度收缩（运动物体沿运动方向缩短） |
+| mathematically simpler | 数学上更简单（定律在惯性系中形式最简洁，但可以在惯性系中分析加速观察者看到的现象） |
 
 ---
 
@@ -341,12 +407,30 @@ print(f"  → Simultaneity is RELATIVE (observer-dependent)!")
 ### Original Text — 核心问题
 
 > *"Now we have understood: the concept of simultaneity is relative to observers. For example, Alice and Bob may consider differently on who wrote the letter first. In other words, time orders of some events (here two events: Alice writes her letter; Bob writes his letter) are **reversible**."*
->
+> 现在我们已经理解了：同时性的概念是相对于观察者的。例如，Alice 和 Bob 可能对谁先写信有不同的判断。换句话说，某些事件的时序（这里是两个事件：Alice 写信；Bob 写信）是**可翻转的**。
+| 单词/短语 | 注释 |
+|-----------|------|
+| relative to observers | 相对于观察者（同时性的判断依赖于观察者的运动状态） |
+| time orders | 时序（事件发生的先后顺序） |
+| reversible | 可翻转的（不同观察者可能判断出不同的先后顺序） |
+
 > *"A natural question then is: **Are all time orders between events reversible?**"*
+> 那么一个自然的问题是：**所有事件之间的时序都是可翻转的吗？**
+| 单词/短语 | 注释 |
+|-----------|------|
+| natural question | 自然的问题（从同时性相对性直接引出的下一个逻辑问题） |
+| reversible | 可翻转的（此处指所有事件的时序是否都观察者依赖） |
 
 ### 因果律在物理学中的核心地位
 
 > *"The cause-effect relation (known as causality) is at the heart of physics. Physics is about prediction of how an initial state evolves with time. In other words, the cause-effect relation is how questions get explained in physics – 'Why (effect)? Because (cause).'"*
+> 因果关系（即因果律）是物理学的核心。物理学是关于预测初始状态如何随时间演化的。换句话说，因果关系是物理学中解释问题的方式——"为什么（果）？因为（因）。"
+| 单词/短语 | 注释 |
+|-----------|------|
+| cause-effect relation | 因果关系（原因导致结果，物理学解释的基本逻辑链条） |
+| at the heart of | 是...的核心（因果律在物理学中占据基础性地位） |
+| initial state | 初始状态（物理系统在某一时刻的状态，从此出发预测未来演化） |
+| evolves | 演化（系统状态随时间的变化） |
 
 **例子**：雷击（E_strike）→ 树死（E_die）
 
@@ -355,6 +439,13 @@ print(f"  → Simultaneity is RELATIVE (observer-dependent)!")
 ### Original Text — 狭义相对论与因果律的关系
 
 > *"As causality is so important, we hope that it is preserved in special relativity. Happily, special relativity is indeed consistent with causality. Having that said, **causality is an independent postulate added to special relativity**. In other words, special relativity itself does not derive causality."*
+> 由于因果律如此重要，我们希望它在狭义相对论中得到保留。令人高兴的是，狭义相对论确实与因果律一致。话虽如此，**因果律是添加到狭义相对论中的一个独立公设**。换句话说，狭义相对论本身并不推导出因果律。
+| 单词/短语 | 注释 |
+|-----------|------|
+| preserved | 保留（在理论中得到维护、不被破坏） |
+| consistent with | 与...一致（狭义相对论不会与因果律发生矛盾） |
+| postulate | 公设（理论的基本假设，不来自推导而是作为出发点） |
+| derive | 推导（从其他假设中逻辑地导出——因果关系不能这样导出） |
 
 核心逻辑：
 1. **因果律不是狭义相对论的推导结果**，而是独立添加的公设
@@ -375,19 +466,24 @@ print(f"  → Simultaneity is RELATIVE (observer-dependent)!")
 > *Whose speed was far faster than light;*
 > *She set out one day; In a relative way;*
 > *And returned on the previous night."*
+> 有一位名叫 Bright 的年轻女士；
+> 她的速度远远快于光速；
+> 有一天她以相对论的方式出发；
+> 却在前一天晚上就返回了。
+| 单词/短语 | 注释 |
+|-----------|------|
+| far faster than light | 远远快于光速（超光速，狭义相对论禁止的速度） |
+| set out | 出发（开始她的旅程） |
+| relative way | 相对论的方式（以接近/超过光速的相对论速度旅行） |
+| previous night | 前一天晚上（超光速旅行导致返回时间早于出发时间，违反因果律） |
 
 > *"We hope this to be forbidden. Otherwise, what if Ms. Bright returned to the previous night, and locked herself in the room, how can her superluminal trip happen at all?"*
-
-### 🔑 Key Vocabulary — 因果律
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| causality | 因果律 | cause must precede effect |
-| cause-effect relation | 因果关系 | the chain of physical causation |
-| subluminal | 亚光速 | v < c, all ordinary matter |
-| superluminal | 超光速 | v > c, forbidden in SR |
-| time order | 时序 | which event happens earlier |
-| reversible | 可翻转的 | time order changes depending on observer |
+> 我们希望这是被禁止的。否则，如果 Bright 女士回到了前一天晚上，然后把自己锁在房间里，她的超光速旅行又怎么可能发生呢？
+| 单词/短语 | 注释 |
+|-----------|------|
+| forbidden | 被禁止（因果律和狭义相对论共同禁止超光速运动） |
+| superluminal trip | 超光速旅行（速度超过光速的旅行，会导致因果悖论） |
+| locked herself | 把自己锁起来（创造一个逻辑矛盾：如果她阻止自己出发，那她又如何能回来阻止自己？） |
 
 ---
 
@@ -396,6 +492,13 @@ print(f"  → Simultaneity is RELATIVE (observer-dependent)!")
 ### Original Text
 
 > *"From separation of events, given a spacetime point (say, you at the present time), the spacetime is divided into three different regions according to the causal connection to the observer."*
+> 根据事件的间隔，给定一个时空点（比如，你在当前时刻），时空根据与观察者的因果联系被分为三个不同的区域。
+| 单词/短语 | 注释 |
+|-----------|------|
+| separation of events | 事件的间隔（两个事件之间的时空间隔 Δs²） |
+| spacetime point | 时空点（具有特定时间坐标和空间坐标的点，即一个事件） |
+| regions | 区域（时空点被光锥划分为三个互不相交的区域） |
+| causal connection | 因果联系（两个事件之间能否通过光信号或物质信号建立联系） |
 
 | 区域 | 与"你-现在"的关系 | 物理含义 |
 |------|-------------------|---------|
@@ -486,10 +589,29 @@ print("Elsewhere:     no possible causal connection (space-like)")
 ### 不存在完美刚体
 
 > *"Let's consider a thought experiment: Alice and Bob are separated by 5 light years. And they hold a 5-light-year-long rod, which is a perfect rigid body. Then can Alice and Bob send information faster than light by pushing the rod?"*
->
+> 让我们考虑一个思想实验：Alice 和 Bob 相距 5 光年。他们持有一根 5 光年长的杆，这是一个完美刚体。那么 Alice 和 Bob 能否通过推这根杆来超光速传递信息？
+| 单词/短语 | 注释 |
+|-----------|------|
+| thought experiment | 思想实验（通过逻辑推演而非实际实验来检验理论的方式） |
+| light years | 光年（光在一年中走过的距离，约 9.46×10^15 米） |
+| rod | 杆（长条形物体，此处作为信息传递的工具） |
+| perfect rigid body | 完美刚体（在任何外力下都不发生形变的理想化物体） |
+
 > *"The answer is a simple straight **no**. Because no information can be faster than light, **perfectly rigid body does not exist in special relativity**."*
->
+> 答案很简单直接：**不能**。因为没有任何信息可以比光更快，**完美刚体在狭义相对论中不存在**。
+| 单词/短语 | 注释 |
+|-----------|------|
+| simple straight | 简单直接（不加修饰、直截了当的回答） |
+| perfectly rigid body | 完美刚体（在狭义相对论中被禁止的理想化概念，因为它的存在意味着力的瞬时传播） |
+
 > *"If this answer is too brute, we can also see dynamically what happens. The rod is (usually) made of atoms and the force propagating between atoms need at least speed of light to react a push."*
+> 如果这个答案太过粗暴，我们也可以从动力学角度看看发生了什么。杆（通常）由原子构成，原子之间力的传播至少需要光速才能对一个推动做出反应。
+| 单词/短语 | 注释 |
+|-----------|------|
+| brute | 粗暴（直接用原理否定，不给出微观解释） |
+| dynamically | 从动力学角度（从原子间力的传播过程来分析） |
+| propagating | 传播（力或扰动在介质中从一处传到另一处） |
+| react | 做出反应（原子感受到相邻原子的推动并开始运动） |
 
 **结论链**：
 - 完美刚体需要力**瞬间传播**（速度 ∞）
@@ -504,8 +626,19 @@ print("Elsewhere:     no possible causal connection (space-like)")
 ### Original Text
 
 > *"The speed of light limit classifies the intervals between two events into 3 classes."*
+> 光速极限将两个事件之间的间隔分为 3 类。
+| 单词/短语 | 注释 |
+|-----------|------|
+| speed of light limit | 光速极限（光速 c 是宇宙中的最高速度） |
+| classifies | 分类（根据是否可能建立因果联系来区分事件对） |
+| intervals | 间隔（两个事件之间的时空距离 Δs²） |
 
 > *"There are three types of intervals between events."*
+> 事件之间的间隔有三种类型。
+| 单词/短语 | 注释 |
+|-----------|------|
+| types | 类型（类时、类光、类空三种本质不同的间隔） |
+| intervals between events | 事件之间的间隔（由 Δs² = −c²Δt² + Δx² 的符号决定类型） |
 
 ### 三类间隔的定义与性质
 
@@ -647,8 +780,20 @@ print(f"  → Time order PRESERVED for all subluminal observers!")
 **核心结论**：
 
 > *"Special relativity without superluminal motion is consistent with causality."*
+> 没有超光速运动的狭义相对论与因果律是一致的。
+| 单词/短语 | 注释 |
+|-----------|------|
+| superluminal motion | 超光速运动（速度超过光速的运动，违反因果律） |
+| consistent with | 与...一致（狭义相对论无超光速时不会导致因果矛盾） |
 
 > *"More generally, **no information can be sent faster than the speed of light**. Because information must be sent by matter after all. And from the consistency of the theory, information can bring causal connection between events. Thus if information can be sent faster than light, then the same problems of superluminal motion can arise."*
+> 更一般地说，**没有任何信息可以比光速更快地传递**。因为信息终究必须由物质来传递。从理论的一致性来看，信息可以在事件之间建立因果联系。因此，如果信息可以超光速传递，那么同样的超光速运动问题就会出现。
+| 单词/短语 | 注释 |
+|-----------|------|
+| matter | 物质（信息和因果联系必须由物质或光来承载，它们的速度上限都是 c） |
+| consistency of the theory | 理论的一致性（如果允许超光速信息传递，整个理论的逻辑结构会崩溃） |
+| causal connection | 因果联系（信息传递会建立事件之间的因果链） |
+| arise | 出现（超光速信息传递会导致与超光速物质运动相同的因果悖论） |
 
 ---
 
@@ -657,12 +802,26 @@ print(f"  → Time order PRESERVED for all subluminal observers!")
 ### 为什么不可能从亚光速加速到超光速？
 
 > *"You may have an excellent question at this point: What if we push Ms. Bright so she accelerates from subluminal to superluminal? It is in fact impossible. We will come back to this point later."*
+> 此时你可能有一个很好的问题：如果我们推动 Bright 女士，使她从亚光速加速到超光速呢？事实上这是不可能的。我们稍后会回到这一点。
+| 单词/短语 | 注释 |
+|-----------|------|
+| accelerates | 加速（速度随时间增加的过程） |
+| subluminal | 亚光速（速度小于光速） |
+| superluminal | 超光速（速度大于光速） |
+| in fact | 事实上（这是狭义相对论的一个严格结论，将在第 8 节证明） |
 
 这个问题的答案将在第 8 节（相对论动量与能量）中揭示：随着速度接近 c，加速物体所需的能量趋向于无穷大——没有有限的能量可以将有质量物体加速到光速。
 
 ### 广义相对论中的"超光速"
 
 > *"In general relativity, you may hear that things can go superluminal, for example, for cosmic expansion. This is right or wrong. One has to first define velocity precisely."*
+> 在广义相对论中，你可能听说过事物可以超光速，例如宇宙膨胀。这既对也错。首先必须精确地定义速度。
+| 单词/短语 | 注释 |
+|-----------|------|
+| general relativity | 广义相对论（爱因斯坦的引力理论，扩展了狭义相对论） |
+| cosmic expansion | 宇宙膨胀（空间本身的膨胀，使遥远星系以超光速互相远离） |
+| define precisely | 精确地定义（超光速的说法取决于如何定义"速度"——是局域速度还是坐标速度） |
+| velocity | 速度（在弯曲时空中，速度的定义变得微妙，局域测量的速度仍然 ≤ c） |
 
 宇宙膨胀中，遥远星系之间的**空间本身在膨胀**——这不是物质在空间中运动超过 c，因此不与狭义相对论的禁令矛盾。类似地，量子纠缠中的"超光速关联"也不能传递信息和能量。
 
@@ -676,30 +835,6 @@ print(f"  → Time order PRESERVED for all subluminal observers!")
 | 2 | **Load** | 将 P-O-Q 系统加载到 Alice 的运动车上 | EP 和 EQ 对 Alice 同时 |
 | 3 | **Calculate** | 在 Bob 的时空图中用光速不变性分析 | Alice 同时的事件对 Bob **不同时** |
 | 4 | **Generalize** | 由 (R) 推广到所有同时性定义 | 同时性是相对的——这是时空本质 |
-
----
-
-## 🔑 核心词汇汇总
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| simultaneity | 同时性 | two events having same time coordinate in a frame |
-| relativity of simultaneity | 同时性的相对性 | "at the same time" depends on the observer's motion |
-| spacetime diagram | 时空图 | events = points, light = 45° lines |
-| world line | 世界线 | trajectory of an object through spacetime |
-| equal-time slice | 等时切片 | hyperplane of events simultaneous in a given frame |
-| causality | 因果律 | cause precedes effect in all frames |
-| superluminal | 超光速 | v > c; forbidden by SR + causality |
-| subluminal | 亚光速 | v < c; all ordinary matter |
-| light cone | 光锥 | boundaries of causal influence from an event |
-| past light cone | 过去光锥 | all events that could have caused the present |
-| future light cone | 未来光锥 | all events the present can affect |
-| time-like interval | 类时间隔 | Δs² < 0; absolute time order; causal connection possible |
-| space-like interval | 类空间隔 | Δs² > 0; reversible time order; no causal connection |
-| null / light-like interval | 类光间隔 | Δs² = 0; light-speed boundary |
-| perfectly rigid body | 完美刚体 | does NOT exist in SR; forces propagate at ≤ c |
-| twin paradox | 双生子佯谬 | resolved by frame switch causing "jump" in Bob's age |
-| Lorentz boost | 洛伦兹增速变换 | transformation between frames with relative velocity |
 
 ---
 

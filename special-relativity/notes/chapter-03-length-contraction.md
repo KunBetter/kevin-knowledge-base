@@ -8,6 +8,16 @@
 
 > *"In previous sections, we have learned that the **time interval** between two events depends on the observer. A natural question arises: Is **space interval** still absolute, or is it similarly relative depending on observers?"*
 
+> 在前面的章节中，我们已经了解到两个事件之间的**时间间隔**依赖于观察者。一个自然的问题是：**空间间隔**仍然是绝对的吗？还是说它同样会因观察者不同而变化？
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| time interval | 时间间隔；两个事件之间的时间差，在相对论中不是绝对的 |
+| space interval | 空间间隔；两个事件之间的空间距离，本节将证明它也是相对的 |
+| absolute | 绝对的；不依赖于参考系选择的量，牛顿力学中时间和空间被认为是绝对的 |
+| relative | 相对的；依赖于观察者/参考系的量，相对论的核心特征 |
+| observer | 观察者；指特定的惯性参考系，不一定是真人，可以理解为一个坐标系 |
+
 ### 逻辑递推链
 
 从第二节已知的结论出发，我们可以递推得到长度收缩：
@@ -20,16 +30,6 @@
 推论：速度叠加公式必须修正 → 相对论速度叠加
 ```
 
-### 🔑 Key Vocabulary
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| space interval | 空间间隔 | distance between two events in space |
-| length contraction | 长度收缩 | moving objects shorten along direction of motion |
-| light ruler | 光尺 | light bouncing between two mirrors parallel to motion |
-| propagation time | 传播时间 | time for signal to travel one way |
-| round-trip time | 往返时间 | total time for signal to go and return |
-
 ---
 
 ## 📖 3.2 光尺实验与四步推理 (The Light Ruler Experiment)
@@ -38,7 +38,25 @@
 
 > *"We construct a 'light ruler': a light beam is emitted from one end, reflected by a mirror at the other end, and detected back at the emission point. At rest, the round-trip time is Δt = 2D/c."*
 
+> 我们构建一把"光尺"：一束光从一端发射，被另一端的镜子反射，然后在发射点被探测回来。在静止状态下，往返时间为 Δt = 2D/c。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| light ruler | 光尺；利用光在两面镜子之间反弹来测量长度的装置，是光钟沿运动方向放置的变体 |
+| emitted | 发射；光从光源发出的动作 |
+| reflected | 反射；光在镜面上反弹 |
+| detected | 探测/检测；光返回后被接收器感知 |
+| round-trip time | 往返时间；光从发射到返回的总时间 |
+
 > *"Now we load this light ruler **parallel** to Alice's direction of motion, and ask: what length does Bob measure for Alice's moving ruler?"*
+
+> 现在我们将这把光尺**平行**于 Alice 的运动方向放置，并问：Bob 测量到的 Alice 运动尺子的长度是多少？
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| parallel | 平行；光尺的方向与运动方向一致，这是与光钟（垂直方向）的关键区别 |
+| direction of motion | 运动方向；Alice 相对于 Bob 的运动方向，沿 x 轴 |
+| measure | 测量；在 Bob 的参考系中进行的长度观测行为 |
 
 ### 装置对比：光钟 vs 光尺
 
@@ -159,17 +177,6 @@ At v=0.8c: t1/t2 = 9.0
 The chase leg (t1) takes 9× longer than the return leg (t2)!
 ```
 
-### 🔑 Key Vocabulary
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| light ruler | 光尺 | light bouncing parallel to motion; measures length |
-| leg / path | 段 / 路径 | each one-way trip of light |
-| receding mirror | 远离的镜子 | mirror moving away from light source |
-| approaching detector | 靠近的检测器 | detector moving toward returning light |
-| round-trip | 往返 | total two-way journey |
-| compact formula | 紧凑公式 | simplified mathematical form |
-
 ---
 
 ## 📖 3.3 长度收缩的物理理解 (Physical Understanding)
@@ -178,7 +185,25 @@ The chase leg (t1) takes 9× longer than the return leg (t2)!
 
 > *"D_B is **not** the length of Bob's own ruler. It is the length of **Alice's ruler** (which moves with Alice) as measured in Bob's frame."*
 
+> D_B **不是** Bob 自己的尺子长度。它是 **Alice 的尺子**（随 Alice 一起运动）在 Bob 参考系中被测到的长度。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| D_B | Bob 参考系中测得的长度；不是 Bob 自己的尺子，而是 Alice 运动尺子的测量值 |
+| Bob's own ruler | Bob 自己的尺子；在 Bob 参考系中静止的尺子，其长度不受收缩影响 |
+| Alice's ruler | Alice 的尺子；随 Alice 一起运动，因此在 Bob 看来被收缩 |
+| as measured in Bob's frame | 在 Bob 参考系中测量；强调这是观测结果，而非 Alice 参考系中的固有属性 |
+
 > *"For Bob (the stationary observer), Alice's moving ruler is **contracted**. This is the so-called **Lorentz contraction** (or Lorentz-FitzGerald contraction)."*
+
+> 对于 Bob（静止观察者）而言，Alice 的运动尺子被**收缩**了。这就是所谓的**洛伦兹收缩**（或洛伦兹-菲茨杰拉德收缩）。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| stationary observer | 静止观察者；在 Bob 自己的参考系中 Bob 是静止的，"静止"永远是相对的 |
+| contracted | 收缩；运动物体沿运动方向长度变短的效应 |
+| Lorentz contraction | 洛伦兹收缩；长度收缩效应的历史名称，现已被重新诠释为时空几何的必然结论 |
+| Lorentz-FitzGerald contraction | 洛伦兹-菲茨杰拉德收缩；历史上由两人独立提出，用于解释迈克尔逊-莫雷实验的零结果 |
 
 ### 长度收缩的关键性质
 
@@ -337,16 +362,6 @@ LENGTH CONTRACTION AT EVERYDAY SPEEDS
  Earth around Sun (30 km/s): γ-1 = 5.00e-09,  L/L0 = 0.999999995000000
 ```
 
-### 🔑 Key Vocabulary
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| Lorentz-FitzGerald contraction | 洛伦兹-菲茨杰拉德收缩 | historical name for length contraction |
-| rest length / proper length | 静止长度 / 固有长度 | length measured in object's own rest frame |
-| contraction factor | 收缩因子 | 1/γ = √(1 − v²/c²) |
-| optical illusion | 光学错觉 | length contraction is NOT this; it's a real measurement effect |
-| perpendicular / transverse | 垂直 / 横向 | direction perpendicular to motion |
-
 ---
 
 ## 📖 3.4 历史注记：菲茨杰拉德与洛伦兹 (Historical Note)
@@ -354,6 +369,16 @@ LENGTH CONTRACTION AT EVERYDAY SPEEDS
 ### Original Text — 长度收缩的"前世"
 
 > *"Length contraction was hypothesized before special relativity by **George FitzGerald (1889)** and **Hendrik Lorentz (1892)** to explain the null result of the Michelson-Morley experiment."*
+
+> 长度收缩在狭义相对论诞生之前就被**乔治·菲茨杰拉德（1889）**和**亨德里克·洛伦兹（1892）**作为假说提出，用以解释迈克尔逊-莫雷实验的零结果。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| hypothesized | 作为假说提出；与从第一原理"推导"不同，假说缺乏更基本的理论基础 |
+| null result | 零结果；迈克尔逊-莫雷实验未能检测到预期的"以太风"——干涉条纹无移动 |
+| Michelson-Morley experiment | 迈克尔逊-莫雷实验；1887年试图测量地球相对于以太运动的著名实验，其零结果成为相对论的关键实验基础 |
+| George FitzGerald | 乔治·菲茨杰拉德；爱尔兰物理学家，1889年首次提出长度收缩假说 |
+| Hendrik Lorentz | 亨德里克·洛伦兹；荷兰物理学家，1892年独立提出相同假说并发展了系统的电子理论 |
 
 ### 历史时间线
 
@@ -379,6 +404,15 @@ LENGTH CONTRACTION AT EVERYDAY SPEEDS
 
 > *"Einstein's contribution is not just writing down the same formula — it is deriving it from first principles (R, C, E) and showing that it is a **consequence of spacetime geometry**, not a separate hypothesis about matter."*
 
+> 爱因斯坦的贡献不仅仅是写下同一个公式——而是从第一原理 (R, C, E) 推导出它，并证明它是**时空几何的推论**，而非关于物质的独立假说。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| first principles | 第一原理；最基础的、不可再简化的出发点——在此指相对性原理 (R)、光速不变 (C) 和事件一致同意 (E) |
+| spacetime geometry | 时空几何；闵可夫斯基时空的几何结构——收缩是坐标变换的结果，不是物质的物理形变 |
+| consequence | 推论/必然结果；与 ad hoc 假说相对，从基本原理必然导出 |
+| hypothesis about matter | 关于物质的假说；菲茨杰拉德和洛伦兹的收缩假说假定物质在以太中运动时发生物理形变 |
+
 ---
 
 ## 📖 3.5 速度叠加：光尺变体测速仪 (Velocity Addition)
@@ -386,6 +420,16 @@ LENGTH CONTRACTION AT EVERYDAY SPEEDS
 ### Original Text — 从光尺到测速仪
 
 > *"We modify the light ruler: replace the emitted light beam with a **massive object** moving at speed u_A (in Alice's frame), and replace the mirror with a **reflecting device** that bounces the object back (or equivalently, emits a light signal upon impact). This turns the light ruler into a **speedmeter**."*
+
+> 我们对光尺进行改造：将发射的光束替换为一个以速度 u_A（在 Alice 参考系中）运动的**有质量物体**，将镜子替换为一个将物体弹回的**反射装置**（或等效地，在碰撞时发出光信号）。这就把光尺变成了**测速仪**。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| massive object | 有质量物体；与无质量的光不同，其速度可以小于 c，这是测速仪的核心改造 |
+| speed u_A | 在 Alice 参考系中的速度；下标 A 强调是在 Alice 的静止参考系中测量 |
+| reflecting device | 反射装置；弹回有质量物体或者用光信号报告物体到达的装置 |
+| speedmeter | 测速仪；改造后的光尺，用于测量不同参考系间的速度变换关系 |
+| upon impact | 在碰撞时；指物体到达反射装置的时刻触发返回信号 |
 
 ### 装置原理
 
@@ -459,16 +503,6 @@ $$u_B \approx u_A + v$$
 
 如果 u_A < c 且 v < c，则 u_B < c 恒成立。没有任何操作能使物体超过光速。
 
-### 🔑 Key Vocabulary
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| speedmeter | 测速仪 | modified light ruler for measuring speed |
-| velocity addition | 速度叠加 | formula for combining velocities across frames |
-| massive object | 有质量物体 | as opposed to massless light |
-| reflecting device | 反射装置 | bounces the object or emits return signal |
-| Galilean addition | 伽利略速度叠加 | u_B = u_A + v; low-speed limit |
-
 ---
 
 ## 📖 3.6 迅速度：真正可加的"速度" (Rapidity)
@@ -476,6 +510,15 @@ $$u_B \approx u_A + v$$
 ### Original Text — 速度叠加为什么不是简单的加法？
 
 > *"Why is velocity addition not just u_B = u_A + v? And why do hyperbolic functions arise here? This points to a deep geometric structure of spacetime that we will fully understand in section 7."*
+
+> 为什么速度叠加不是简单的 u_B = u_A + v？为什么这里会出现双曲函数？这指向了时空深层的几何结构，我们将在第 7 节完全理解。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| velocity addition | 速度叠加；在相对论中速度不是简单相加，这与日常经验（伽利略叠加）截然不同 |
+| hyperbolic functions | 双曲函数；包括 sinh, cosh, tanh 等，在洛伦兹变换中自然出现，反映闵可夫斯基时空的双曲几何结构 |
+| geometric structure of spacetime | 时空的几何结构；闵可夫斯基时空不是欧几里得的，而是双曲的——这是速度叠加非线性的根本原因 |
+| section 7 | 第 7 节；将引入闵可夫斯基时空图和双曲旋转的完整几何图像 |
 
 ### 迅速度的定义
 
@@ -697,17 +740,6 @@ VELOCITY ADDITION: NUMERICAL EXAMPLES
     Galilean:     u_B = 1.5000c  (would exceed c!)
 ```
 
-### 🔑 Key Vocabulary
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| rapidity | 迅速度 | φ = arctanh(v/c); additive parameter for boosts |
-| hyperbolic tangent | 双曲正切 | tanh(x); relates φ to v/c |
-| hyperbolic arctangent | 反双曲正切 | arctanh(x); defines φ from v/c |
-| hyperbolic rotation | 双曲旋转 | Lorentz transformation as rotation in spacetime |
-| boost | 增速变换 | changing reference frame by relative velocity |
-| additive | 可加的 | φ₁₂ = φ₁ + φ₂, unlike velocities |
-
 ---
 
 ## 📖 3.7 横向速度变换 (Transverse Velocity Transformation)
@@ -715,6 +747,14 @@ VELOCITY ADDITION: NUMERICAL EXAMPLES
 ### Original Text — 不只是纵向
 
 > *"For velocities in arbitrary directions, we can use the Lorentz transformation to derive the general velocity transformation formulas."*
+
+> 对于任意方向的速度，我们可以使用洛伦兹变换导出一般的速度变换公式。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| arbitrary directions | 任意方向；不限于沿相对运动方向（纵向），也包括横向 |
+| Lorentz transformation | 洛伦兹变换；连接不同惯性参考系坐标的完整变换公式，将在第 6 节详细推导 |
+| general velocity transformation formulas | 一般速度变换公式；将任意三维速度矢量从一个参考系变换到另一个参考系 |
 
 ### 完整的三维速度变换公式
 

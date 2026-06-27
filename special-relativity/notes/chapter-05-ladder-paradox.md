@@ -8,7 +8,27 @@
 
 > *"Alice is running towards a garage with a long ladder. The garage (in Bob's reference frame) has a length L, which is shorter than the length of the ladder in the ladder's rest frame. But since the ladder is moving at speed v in Bob's frame, its length contracts to L/γ. So in Bob's frame, the ladder can entirely fit in the garage. Meanwhile, in Alice's (ladder's rest) frame, the garage length contracts to L/γ, so the ladder cannot fit in the garage at all."*
 
+> 爱丽丝扛着一架长梯跑向车库。车库在鲍勃的参考系中长度为 L，比梯子在其静止参考系中的长度更短。但由于梯子在鲍勃参考系中以速度 v 运动，其长度收缩至 L/γ。因此在鲍勃看来，梯子能完全放入车库。与此同时，在爱丽丝（梯子的静止参考系）中，车库长度收缩至 L/γ，所以梯子根本无法放入车库。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| ladder | 梯子——悖论的核心物体，在其静止参考系中拥有固有长度 |
+| garage | 车库——在 Bob 参考系中静止，固有长度 L |
+| rest frame | 静止参考系——物体在其中保持静止的惯性参考系 |
+| length contracts | 长度收缩——运动物体在其运动方向上的长度缩短，收缩因子为 1/γ |
+| entirely fit | 完全放入——梯子的全部长度都处于车库前后门之间的空间内 |
+| reference frame | 参考系——用于标记和描述物理事件的惯性坐标系 |
+
 > *"Who is right? They are both right — because 'the ladder fits in the garage' is not a single event localized at a spacetime point. It is a judgment that involves two spacetime events."*
+
+> 谁是对的？两人都对——因为"梯子放入车库"不是一个局限于单一时空点的局域事件，而是一个涉及两个时空事件的判断。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| localized | 局限在一个确定的时空坐标上的（事件） |
+| spacetime point | 时空点——由 (t, x, y, z) 四个坐标确定的时空位置 |
+| judgment | 判断——需要比较多个事件的复合结论，非直接可观测的局域事实 |
+| two spacetime events | 两个时空事件——此处指事件 P（梯子前端进前门）和事件 Q（梯子后端出后门） |
 
 ### 场景参数
 
@@ -35,18 +55,6 @@
 
 "梯子放入车库"实质上是问：**事件 P 是否先于事件 Q？** 即梯子前端进入时，后端是否尚未离开？但这两个事件是**类空间隔的**——它们的时序依赖于观察者！
 
-### 🔑 Key Vocabulary
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| ladder paradox | 梯子悖论 | also barn-pole paradox, pole-in-barn paradox |
-| non-local judgment | 非局域判断 | depends on multiple spacetime events, not a single point |
-| localized event | 局域事件 | a single occurrence at one spacetime point |
-| front door / back door | 前门 / 后门 | F and B, the two boundaries of the garage |
-| proper length / rest length | 固有长度 / 静止长度 | length in object's own rest frame |
-| spacelike separation | 类空间隔 | ds² > 0, temporal order is observer-dependent |
-| Lorentz factor γ | 洛伦兹因子 | γ = 1/√(1 - v²/c²), length contraction = 1/γ |
-
 ---
 
 ## 📖 5.2 时序翻转：两个观察者的时空图
@@ -55,7 +63,26 @@
 
 > *"The two relevant events are: (1) P (front of ladder) enters the front door F of the garage; (2) Q (back end of ladder) exits the back door B of the garage. These two events are spacelike separated. Thus, their temporal order is relative — it depends on the observer."*
 
+> 两个相关事件是：(1) P（梯子前端）进入车库前门 F；(2) Q（梯子后端）离开车库后门 B。这两个事件是类空分离的，因此它们的时序是相对的——取决于观察者。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| relevant events | 相关事件——决定"梯子是否放入"的两个关键时空点 |
+| front door / back door | 前门 / 后门——车库的两个边界，记为 F 和 B |
+| spacelike separated | 类空分离——两个事件的 ds² > 0，彼此之间没有因果联系 |
+| temporal order | 时序——事件发生的前后顺序 |
+| relative | 相对的——在不同参考系中可以不同，不存在绝对的先后 |
+
 > *"In Bob's (garage) frame, event (1) happens before event (2) → the ladder fits. In Alice's (ladder) frame, event (2) happens before event (1) → the ladder does not fit. Both viewpoints are equally valid because the two events cannot be causally connected."*
+
+> 在鲍勃（车库）参考系中，事件 (1) 先于事件 (2) 发生 → 梯子能放入。在爱丽丝（梯子）参考系中，事件 (2) 先于事件 (1) 发生 → 梯子不能放入。两种观点同等有效，因为这两个事件之间不能有因果联系。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| equally valid | 同等有效——两种时序在物理上没有优劣之分，都是正确的 |
+| causally connected | 因果关联——一个事件能以 ≤c 的速度影响另一个事件 |
+| viewpoints | 观点——不同惯性参考系中观察到的物理图景 |
+| happens before | 先于……发生——在给定参考系的等时切片中 t 值更小 |
 
 ### 为什么时序会翻转？
 
@@ -277,17 +304,6 @@ Right (Alice): Δt' = -17.6 < 0 → Q before P!
 Spacetime interval ds² = 100.0 > 0 → SPACELIKE ✓
 ```
 
-### 🔑 Key Vocabulary
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| spacelike-separated | 类空分离 | ds² > 0, temporal order not fixed |
-| simultaneity slice / now-slice | 等时切片 | the set of events an observer calls "happening now" |
-| Lorentz boost | 洛伦兹增速 | transformation between inertial frames moving relative to each other |
-| invariant interval | 不变间隔 | ds², same in all inertial frames |
-| temporal order flip | 时序翻转 | Δt changes sign under Lorentz boost |
-| worldline | 世界线 | path of an object through spacetime (a curve on the diagram) |
-
 ---
 
 ## 📖 5.3 加强版悖论：Bob 关上两道门
@@ -295,6 +311,16 @@ Spacetime interval ds² = 100.0 > 0 → SPACELIKE ✓
 ### Original Text
 
 > *"To sharpen the paradox: suppose the back door is always closed. As Bob observes the ladder fully inside the garage, he closes the front door as well. Now Bob says: both doors are closed with the ladder inside. Alice must agree that the ladder was entirely inside the garage — because this now involves localized events."*
+
+> 为了让悖论更尖锐：假设后门一直是关着的。当鲍勃观察到梯子完全在车库内部时，他也关上前门。现在鲍勃声称：两道门都关着，梯子在车库里面。爱丽丝必须同意梯子确实完全在车库内部——因为此时涉及的已经是局域事件。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| sharpen the paradox | 让悖论更尖锐——通过添加局域事件使表面的矛盾更加突出 |
+| always closed | 一直关闭——后门在 Bob 参考系中始终处于关闭状态 |
+| closes the front door | 关上前门——Bob 在梯子前端进入后执行的操作 |
+| localized events | 局域事件——发生在单一时空点的物理事件，所有观察者必须就其结果达成一致 |
+| must agree | 必须同意——涉及局域物理接触时（门是否碰到梯子），所有参考系给出相同的客观事实 |
 
 ### 加强版场景
 
@@ -402,17 +428,6 @@ With speed-of-light limit, signal takes ≥50.0 ns.
 The ladder MUST deform — rigidity is impossible in SR.
 ```
 
-### 🔑 Key Vocabulary
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| perfectly rigid body | 完美刚体 | cannot exist in SR (would need instantaneous signal) |
-| localized event / local event | 局域事件 | a single occurrence at one spacetime point |
-| signal propagation | 信号传播 | force/information travels at ≤ c |
-| deformation | 形变 | bending, compression due to finite signal speed |
-| nanosecond (ns) | 纳秒 | 10⁻⁹ s, typical for light crossing lab-scale objects |
-| objective fact | 客观事实 | local events are agreed upon by all observers |
-
 ---
 
 ## 📖 5.4 陷阱变体：Alice 如何持梯？
@@ -420,6 +435,17 @@ The ladder MUST deform — rigidity is impossible in SR.
 ### Original Text
 
 > *"The resolution of the 'trap variant' depends on how Alice holds the ladder. If Alice supports the ladder from below (requires ground contact), then when Q hits the closed back door, the ladder must stop — Alice cannot push it through. If Alice holds the ladder from above (suspended), then Q can slide past the back door without ground support, and the ladder continues forward after deforming."*
+
+> "陷阱变体"的解析取决于爱丽丝如何持梯。如果爱丽丝从下方支撑梯子（需要地面接触），那么当 Q 碰到关闭的后门时，梯子必须停下——爱丽丝无法将其推过去。如果爱丽丝从上方悬挂梯子（悬空），那么 Q 可以在没有地面支撑的情况下滑过后门，梯子在发生形变后继续向前。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| trap variant | 陷阱变体——后门始终关闭的加强版悖论变体 |
+| supports from below | 从下方支撑——梯子依赖地面支撑其重量，Q 碰到后门后无法继续前进 |
+| ground contact | 地面接触——梯子与地面之间的物理支撑关系 |
+| holds from above / suspended | 从上方悬挂——梯子被从上方吊起，不依赖地面，Q 可以越过障碍 |
+| slide past | 滑过——梯子后端在碰到后门后仍能沿门面滑动，不被彻底阻挡 |
+| deforming | 形变——梯子在受力后发生弯曲或压缩，不再保持原长 |
 
 ### 两种持梯方式的不同结果
 
@@ -447,7 +473,28 @@ The ladder MUST deform — rigidity is impossible in SR.
 
 > *"Alice carries two parallel, mutually insulated wires that can each complete or break a circuit. Consider the circuit: if both wires are disconnected, a light bulb goes out momentarily. Bob believes there exists a moment when both wires are disconnected → the bulb should go out. Alice believes at least one wire is always in contact → the bulb should not go out."*
 
+> 爱丽丝携带两根平行、彼此绝缘的导线，每根都可以接通或断开电路。考虑如下电路：如果两根导线同时断开，灯泡就会瞬间熄灭。鲍勃认为存在一个两根导线都断开的时刻 → 灯泡应该熄灭。爱丽丝认为至少有一根导线始终处于接通状态 → 灯泡不应该熄灭。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| parallel, mutually insulated wires | 平行且彼此绝缘的导线——两根导线分别控制电路通断，互不影响 |
+| complete or break a circuit | 接通或断开电路——导线接触则电路闭合，分离则电路断开 |
+| light bulb goes out | 灯泡熄灭——电路断开导致电流中断，灯泡不再发光 |
+| momentarily | 瞬间地——在一个极短的时间间隔内 |
+| at least one wire is always in contact | 至少有一根导线始终接通——从 Alice 的等时切片看，两根导线从未同时断开 |
+
 > *"The resolution: electricity conducts at a speed comparable to c but not exceeding it. What Alice sees as non-simultaneous disconnections can still result in a simultaneous gap in the circuit from Bob's perspective — once the finite propagation time of electrical signals is accounted for."*
+
+> 解析：电的传导速度接近但不超越光速 c。一旦将电信号有限的传播时间纳入计算，爱丽丝所看到的非同时断开仍可能在鲍勃的视角下导致电路中出现同时的断开间隙。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| conducts | 传导——电流或电磁场沿导线的传播过程 |
+| speed comparable to c | 接近光速的速度——电磁信号的传播速度约为 c，是 SR 允许的上限 |
+| non-simultaneous disconnections | 非同时断开——在不同时间点发生的导线断开事件 |
+| simultaneous gap | 同时间隙——从电路整体看，存在一个时间段两条导线均不通 |
+| finite propagation time | 有限的传播时间——信号从断开点传到灯泡需要非零时间 |
+| accounted for | 被纳入计算——考虑信号延迟后，两种描述自洽 |
 
 ### 电路类比 vs 机械悖论
 

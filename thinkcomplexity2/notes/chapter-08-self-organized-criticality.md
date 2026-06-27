@@ -1,6 +1,15 @@
 # 第8章：自组织临界性 (Self-Organized Criticality)
 
-> 本章探讨**自组织临界性（SOC）**——系统无需外部调控即可自发演化至临界状态并停留其中，解释了为何重尾分布、分形和粉红噪声在自然界中如此普遍。
+> *"These properties are interesting in part because they appear frequently in nature; that is, many natural systems produce fractal-like geometry, heavy-tailed distributions, and pink noise. A possible answer is self-organized criticality (SOC), which is the tendency of some systems to evolve toward, and stay in, a critical state."*
+> 这些性质之所以引人关注，部分原因在于它们在自然界中频繁出现——许多自然系统都会产生类分形几何、重尾分布和粉红噪声。一个可能的答案是**自组织临界性（SOC）**，即某些系统倾向于自发演化至临界状态并停留在其中。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| fractal-like geometry | 类分形几何：具有自相似性的不规则几何形态 |
+| heavy-tailed distributions | 重尾分布：尾部比指数分布衰减更慢的概率分布，如幂律分布 |
+| pink noise | 粉红噪声：功率与频率成反比（1/f）的信号，介于白噪声与红噪声之间 |
+| self-organized criticality (SOC) | 自组织临界性：系统从任意初始条件出发，无需外部调控即可自发移向并停留在临界状态的性质 |
+| evolve toward | 演化至：系统状态随时间自发变化并向某个方向趋近的过程 |
 
 ---
 
@@ -97,7 +106,17 @@ toppling 布尔数组 → `correlate2d(toppling, kernel)` 产生变化矩阵：
  [0 1 0 1 0]]
 ```
 
-> 注意重叠处核会**相加**；`mode='same'` 使得超出边界的沙粒消失。
+> *"Notice that where the copies of the kernel overlap, they add up. With mode='same', correlate2d considers the boundary of the array to be fixed at zero, so any grains of sand that go over the edge disappear."*
+> 注意在卷积核副本重叠的地方，它们会**相加**；使用 `mode='same'` 时，correlate2d 将数组边界视为固定为零，因此任何越过边缘的沙粒都会消失。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| kernel overlap | 卷积核重叠：多个卷积核在同一位置产生的值叠加在一起 |
+| add up | 叠加求和：此处指重叠区域的核值被加总 |
+| boundary | 边界：数组的边缘区域，在此模型中固定为零 |
+| fixed at zero | 固定为零：边界细胞的值始终保持为0，不参与崩塌 |
+| grains of sand | 沙粒：沙堆模型中的基本单元，对应数组中的数值 |
+| disappear | 消失：超出边界的沙粒被丢弃，模拟沙从边缘溢出 |
 
 ### run 和 drop 方法
 
@@ -273,7 +292,16 @@ freqs, spectrum = welch(signal, nperseg=nperseg, fs=nperseg)
 
 ### Bak 的整体论论证
 
+> *"Since these phenomena appear everywhere, they cannot depend on any specific detail whatsoever... If the physics of a large class of problems is the same, this gives [the theorist] the option of selecting the simplest possible [model] belonging to that class for detailed study."*
 > "这些现象无处不在，因此不能依赖于任何特定细节……如果一大类问题的物理本质相同，理论家就可以选择该类中最简单的模型进行详细研究。"
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| phenomena appear everywhere | 现象无处不在：指临界行为（分形、重尾分布、粉红噪声）在自然界中广泛出现 |
+| specific detail | 特定细节：单个系统的独有特征，如沙堆中沙子的密度、粘性等 |
+| a large class of problems | 一大类问题：共享相同物理本质的多个不同系统的集合 |
+| the simplest possible [model] | 最简单的模型：从同类模型中选择复杂性最低的一个进行深度研究 |
+| belonging to that class | 属于该类别：模型只要归入同一类别即可，无需针对特定系统定制 |
 
 SOC 解释临界行为普遍性的两条路径：
 1. **还原论路径**：为特定系统建立逼真模型，证明其展现 SOC
@@ -298,7 +326,17 @@ SOC 解释临界行为普遍性的两条路径：
 | **近因 (Proximate cause)** | 最直接的原因 | 某粒特定沙子触发了雪崩 |
 | **终极因 (Ultimate cause)** | 更深层的解释 | 大雪崩是**系统整体结构和动力学的属性** |
 
-> 近因（触发沙粒）与其他沙粒毫无区别，不提供特殊解释力。
+> *"In the sand pile model, the proximate cause of an avalanche is a grain of sand, but the grain that causes a large avalanche is identical to every other grain, so it offers no special explanation. The ultimate cause of a large avalanche is the structure and dynamics of the systems as a whole: large avalanches occur because they are a property of the system."*
+> 在沙堆模型中，雪崩的近因是一粒沙子，但引发大雪崩的那粒沙子与其他每一粒沙子完全相同，因此它不提供特殊的解释力。大雪崩的终极原因是系统整体的结构与动力学：大雪崩之所以发生，是因为它们是系统的一种固有属性。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| proximate cause | 近因：最直接、最接近事件发生的原因，在此指触发雪崩的特定沙粒 |
+| ultimate cause | 终极因：更深层次的系统性解释，在此指沙堆整体结构和动力学 |
+| identical to every other grain | 与其他每一粒沙完全相同：触发大雪崩的沙粒本身并无特殊之处 |
+| offers no special explanation | 不提供特殊的解释力：无法通过区分"触发者"来解释事件发生 |
+| structure and dynamics | 结构与动力学：系统的组织方式和演化规律 |
+| a property of the system | 系统的固有属性：大雪崩不是偶然的异常，而是临界系统的内在特征 |
 
 ### 不可预测性
 

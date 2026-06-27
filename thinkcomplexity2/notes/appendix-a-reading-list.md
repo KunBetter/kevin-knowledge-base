@@ -1,6 +1,14 @@
 # 附录 A：阅读清单 (Reading List)
 
 > *"The following are selected books related to topics in this book. Most are written for a **non-technical** audience."*
+> 以下是精选的与本书主题相关的书目。其中大多数面向**非技术**读者。
+>
+> | 单词/短语 | 注释 |
+> |-----------|------|
+> | selected books | 精选书目；经过筛选的代表性著作，而非该领域的全面列举 |
+> | related to topics | 与本书各章主题直接相关，可按章节对应阅读 |
+> | non-technical audience | 非技术读者；无需专业的数学或编程背景即可理解，面向普通知识读者 |
+> | written for | 以（某类读者）为目标受众而写作；强调作者在写作时的目标群体设定 |
 
 ---
 

@@ -29,24 +29,6 @@
 | **进阶层** | 时空几何（闵可夫斯基时空）、4-矢量、对称性与群论 | 中间层 | 物理专业学生 |
 | **旁支** | 相对论多普勒效应、电磁场统一 | 进阶层 | 有志于理论物理的学生 |
 
-### 🔑 关键词汇
-
-| English | 中文 | 说明 |
-|---------|------|------|
-| **postulate** | 公设 / 假设 | 不证自明的出发点；狭义相对论有三个 |
-| **principle of relativity** | 相对性原理 | 物理定律在所有惯性系中形式相同 |
-| **constancy of light speed** | 光速不变原理 | c 与光源和观察者的运动无关 |
-| **event** | 事件 | 时空中的一个点 (t, x, y, z)，独立于观察者 |
-| **thought experiment** | 思想实验 | 不实际进行、但逻辑上可行的实验（如光钟） |
-| **electrodynamics** | 电动力学 | 研究电磁场及其与带电粒子相互作用的学科 |
-| **magnet-conductor paradox** | 磁体-导体佯谬 | 同一电磁感应现象在两种参考系中有两种解释——暗示电场和磁场本质统一 |
-| **general relativity (GR)** | 广义相对论 | 将引力描述为时空弯曲的理论 |
-| **equivalence principle** | 等效原理 | 引力与加速不可区分——GR 的基础 |
-| **Lorentz group** | 洛伦兹群 | 所有洛伦兹变换构成的数学群；SO(3,1) |
-| **quantum field theory (QFT)** | 量子场论 | 狭义相对论 + 量子力学的结合 |
-| **group theory** | 群论 | 研究对称性的数学分支 |
-| **symmetry** | 对称性 | 在某种变换下保持不变的性质 |
-
 ---
 
 ## 📖 9.1 接下来学什么？（What's Next in University Physics）
@@ -56,6 +38,13 @@
 #### 原讲义引用
 
 > *"If Coulomb law is more fundamental, we should be able to derive the Lorentz law from it."*
+> "如果库仑定律更基本，我们应该能从中推导出洛伦兹力定律。"
+| 单词/短语 | 注释 |
+|-----------|------|
+| Coulomb law | 库仑定律——描述静止点电荷之间静电力大小的基本定律，与距离平方成反比 |
+| Lorentz law | 洛伦兹力定律——描述带电粒子在电磁场中所受的力：F = q(E + v×B) |
+| fundamental | 基本的、基础性的——在物理学中指不依赖于其他定律的基石性原理，是逻辑推导的起点 |
+| derive from | 从...推导出来——理论物理学中建立不同定律之间逻辑派生关系的基本方法 |
 
 #### 磁体-导体佯谬（Magnet-Conductor Paradox）
 

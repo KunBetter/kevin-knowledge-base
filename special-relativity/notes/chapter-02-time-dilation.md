@@ -9,7 +9,26 @@
 > *"Absolute, true and mathematical time, of itself, and from its own nature flows equably without regard to anything external, and by another name is called duration: relative, apparent and common time, is some sensible and external (whether accurate or unequable) measure of duration by the means of motion, which is commonly used instead of true time"*
 > — Newton, *Philosophiæ Naturalis Principia Mathematica*
 
+> 中文翻译：*"绝对的、真实的、数学的时间，就其自身及其本性而言，均匀地流逝，与任何外在事物无关，它又可名为'持续'（duration）；相对的、表观的、日常的时间，是某种可感知的、外在的（无论精确与否）通过运动来度量持续时间的方式，人们常用它来代替真实时间。"*
+> —— 牛顿，《自然哲学的数学原理》
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| absolute, true and mathematical time | 牛顿定义的"绝对时间"——独立于任何外部事物、均匀流逝的形而上学概念 |
+| flows equably | 均匀地流逝；牛顿认为时间不依赖任何观察者而以固定速率前进 |
+| duration | 持续/时长；牛顿用此词作为"绝对时间"的别名，强调时间的延展性 |
+| relative, apparent and common time | 相对时间——我们日常通过钟表、天体运动等感知和度量时间的方式 |
+| sensible and external measure | 可感知的外在度量；区别于不可感知的"绝对时间" |
+| unequable | 不均匀的；牛顿承认日常计时手段可能不精确，因此不是"真实时间" |
+
 > *"Thus, Newton believed that the 'true time' exists independent of anything else."*
+
+> 中文翻译：*"因此，牛顿相信'真实时间'独立于一切事物而存在。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| true time | 真实时间；牛顿认为存在一个不受外部影响的、普适的时间基准 |
+| independent of anything else | 独立于一切事物；这是绝对时间观的核心——时间不受物质和运动影响 |
 
 ### 牛顿绝对时间的两难困境
 
@@ -26,22 +45,20 @@
 
 > *"Almost all results for low speed motion (v ≪ c) can be trusted (with the exception of rest energy, which we will come back to later). For high speed motion (v ∼ c), we trust (R), (C), (E) and nothing else."*
 
+> 中文翻译：*"低速运动（v ≪ c）的几乎所有结果都是可信的（静止能量除外，我们稍后会回到这个话题）。对于高速运动（v ∼ c），我们只信任 (R)、(C)、(E) 三大原则，其他一概不信。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| low speed motion (v ≪ c) | 低速运动——速度远小于光速的领域，牛顿力学在此近似成立 |
+| rest energy | 静止能量；$E = mc^2$，这是牛顿力学完全不包含的概念，即使低速下也成立 |
+| v ∼ c | 速度接近光速的高速运动领域，牛顿力学在此完全失效 |
+| (R), (C), (E) | 狭义相对论的三大基石：相对性原理、光速不变原理、事件独立于观察者 |
+
 | 低速领域（v ≪ c） | 高速领域（v ∼ c） |
 |-------------------|-------------------|
 | 信任牛顿力学（除静止能量外） | 只信任 (R) (C) (E) 三大原则 |
 | 日常经验成立 | 必须由基本原则重新推导 |
 | 可作为近似 | 需要全新的物理图像 |
-
-### 🔑 Key Vocabulary — 时间概念
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| absolute time | 绝对时间 | Newton's concept: flows equably without regard to anything external |
-| duration | 持续时间 | the measurable interval between events |
-| Occam's razor | 奥卡姆剃刀 | principle: entities should not be multiplied beyond necessity |
-| metaphysical | 形而上学的 | beyond physics; not empirically testable |
-| back-reaction | 反作用 | action of the apparatus back onto what is being measured |
-| Principia | 《原理》 | Newton's *Philosophiæ Naturalis Principia Mathematica* (1687) |
 
 ---
 
@@ -51,7 +68,22 @@
 
 > *"Let us do a practical thing – define time by actually making a simplest clock: the light clock."*
 
+> 中文翻译：*"让我们做一件实际的事情——通过真正制造一个最简单的钟来定义时间：光钟。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| practical thing | 实际的事情；对比牛顿对时间的形而上学思辨，讲义主张用实验装置来定义时间 |
+| simplest clock | 最简单的钟；光钟仅由镜子和光信号构成，没有机械零件，是最简化的计时装置 |
+| define time | 定义时间；这里体现了操作主义精神——通过测量过程来定义物理量 |
+
 > *"We define time by a tick-tock of the 'light clock'."*
+
+> 中文翻译：*"我们通过光钟的一次'滴答'来定义时间。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| tick-tock | 滴答（周期）；光钟的一个完整的发射-反射-探测周期，作为时间的基本单位 |
+| light clock | 光钟；利用光在两面镜子间往返来计时的理想化装置 |
 
 物理学家不纠缠于形而上学的讨论，而是直接**构造一个最简单的钟**来给出时间的操作定义（operational definition）。这就是**光钟**。
 
@@ -85,18 +117,6 @@ $$\Delta t \equiv t_d - t_e = \frac{2D}{c}$$
 
 > 关键思想：我们不再追问"时间的本质是什么"，而是**通过一个具体的物理装置来定义时间**。这是现代物理学操作主义（operationalism）精神的体现。
 
-### 🔑 Key Vocabulary — 光钟装置
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| light clock | 光钟 | simplest possible clock using light bouncing between mirrors |
-| emitter | 发射器 | device that sends out the light signal |
-| detector | 探测器 | device that receives the light signal |
-| mirror | 反射镜 | reflects the light back to the detector |
-| standard time interval | 标准时间间隔 | Δt = 2D/c, the fundamental unit of time measurement |
-| tick-tock | 滴答（周期） | one complete cycle of the light clock |
-| operational definition | 操作定义 | defining a concept by the procedure used to measure it |
-
 ---
 
 ## 📖 2.3 将光钟装进 Alice 的车（Loading the Light Clock into Alice's Car）
@@ -104,6 +124,16 @@ $$\Delta t \equiv t_d - t_e = \frac{2D}{c}$$
 ### Original Text
 
 > *"To see how the time of a traveler lapse wrt a static observer, let us now load the light clock in a car with Alice. Using (R), Alice finds that the interval of the light clock is Δt_A = 2D/c."*
+
+> 中文翻译：*"为了看清旅行者的时间相对于静止观察者如何流逝，让我们现在把光钟和 Alice 一起装进车里。利用 (R)，Alice 发现光钟的间隔是 Δt_A = 2D/c。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| traveler | 旅行者；这里指 Alice，处于运动参考系中的观察者 |
+| static observer | 静止观察者；这里指 Bob，处于"静止"参考系（即我们选定的参照系） |
+| lapse | 流逝；指时间的流逝速率在不同参考系中的差异 |
+| wrt (with respect to) | 相对于；物理学中常用缩写，表示"从某参考系来看" |
+| load | 装入；四步推理法的第二步——将装置放入运动参考系 |
 
 这是**四步推理法**中的第 1 和第 2 步。
 
@@ -122,6 +152,14 @@ $$\Delta t_A = \frac{2D}{c}$$
 ### 垂直于运动方向的长度不变性（Perpendicular Length Invariance）
 
 > *"You may have an excellent question at this moment: when the light clock is moving, how do we know that the length of the light clock is still D wrt Bob?"*
+
+> 中文翻译：*"此刻你可能会有一个很好的问题：当光钟运动时，我们怎么知道光钟的长度对于 Bob 来说仍然是 D？"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| excellent question | 好问题；讲义在此处引导学生主动质疑，这是培养物理直觉的关键环节 |
+| length of the light clock | 光钟的长度；即两面镜子之间的垂直距离 D |
+| still D | 仍然是 D；核心问题：运动是否会改变光钟在垂直方向上的几何尺寸 |
 
 这是一个深刻的问题：当光钟运动时，**Bob 是否也看到两面镜子之间的距离是 D**？
 
@@ -148,6 +186,15 @@ $$\Delta t_A = \frac{2D}{c}$$
 ### Original Text
 
 > *"From the Pythagorean theorem, we have (½c Δt_B)² = (½v Δt_B)² + D²"*
+
+> 中文翻译：*"根据勾股定理，我们有 (½c Δt_B)² = (½v Δt_B)² + D²。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| Pythagorean theorem | 勾股定理；直角三角形的斜边平方等于两直角边平方之和 |
+| ½c Δt_B | 光在半个周期内走的距离（斜边）；光速 c 乘以 Bob 测得的半个周期时间 |
+| ½v Δt_B | 光钟在半个周期内移动的水平距离（底边）；速度 v 乘以时间 |
+| D² | 镜子间距的平方（高）；垂直于运动方向的长度在所有参考系中相同 |
 
 ### 步骤 3：Bob 看到的光路径（Calculate）
 
@@ -337,17 +384,6 @@ print(f"relative error:     {abs(exact-approx)/exact:.2e}")
 # 输出: relative error: ~7.5e-07 (极小)
 ```
 
-### 🔑 Key Vocabulary — 推导与因子
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| Pythagorean theorem | 勾股定理 | a² + b² = c², used to relate light path lengths |
-| Lorentz factor (γ) | 洛伦兹因子 | γ = 1/√(1-v²/c²), the universal time dilation factor |
-| time dilation | 时间膨胀 | moving clocks run slower by a factor of γ |
-| perpendicular | 垂直的 | direction orthogonal to motion; length is invariant |
-| diagonal path | 斜向路径 | the light's path from Bob's frame |
-| Taylor expansion | 泰勒展开 | γ ≈ 1 + ½β² + ... for small β |
-
 ---
 
 ## 📖 2.6 四步推理法：狭义相对论的核心方法论（The 4-Step Reasoning Method）
@@ -355,6 +391,14 @@ print(f"relative error:     {abs(exact-approx)/exact:.2e}")
 ### Original Text
 
 > *"The 4 key steps of reasoning is important, and we will use similar methods repeatedly."*
+
+> 中文翻译：*"这四个关键的推理步骤非常重要，我们将反复使用类似的方法。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| 4 key steps | 四个关键步骤；指 Construct → Load → Calculate → Generalize 的系统推理框架 |
+| reasoning | 推理；强调这不是死记公式，而是从基本原理出发进行逻辑推导 |
+| repeatedly | 反复地；这套方法贯穿整本讲义，是狭义相对论的标准推理模式 |
 
 这是贯穿整个狭义相对论讲义的核心方法框架：
 
@@ -369,6 +413,15 @@ print(f"relative error:     {abs(exact-approx)/exact:.2e}")
 
 > *"Although the result is obtained by one particular apparatus, the comparison between Bob's frame and Alice's frame applies for all possible apparatuses. This is because otherwise, one can use the difference to identify an absolute mover (R)."*
 
+> 中文翻译：*"虽然这个结果是通过一个特定装置获得的，但 Bob 参考系与 Alice 参考系之间的比较适用于所有可能的装置。这是因为，如果不适用，人们就可以利用差异来识别绝对运动者——这违反 (R)。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| particular apparatus | 特定装置；指光钟——一个具体的、简化的计时工具 |
+| applies for all possible apparatuses | 适用于所有可能的装置；由相对性原理保证的推广 |
+| absolute mover | 绝对运动者；如果不同装置的时间膨胀不一致，就能识别出"谁在绝对运动" |
+| identify | 识别；这里指通过物理实验区分惯性系，这被 (R) 禁止 |
+
 **逻辑链**：
 - 如果光钟变慢但机械钟不变慢 → Alice 可以用两者的差异发现自己处于"绝对运动"中 → 违反 (R)
 - 因此，所有物理过程必须以**完全相同的方式**受时间膨胀的影响
@@ -382,7 +435,23 @@ print(f"relative error:     {abs(exact-approx)/exact:.2e}")
 
 > *"In fact, according to (R), everything above slows down."*
 
+> 中文翻译：*"事实上，根据 (R)，上面提到的所有东西都变慢了。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| everything above | 上面提到的所有东西；指光钟以及之前讨论的所有计时装置 |
+| slows down | 变慢；此处指运动参考系中的所有物理过程都受到时间膨胀的影响 |
+
 > *"It is not convincing enough to conclude that everything about Alice slows down wrt Bob. Because we have only shown that her light clock slows down. What about her other clocks, her phone, her heart rate, ...?"*
+
+> 中文翻译：*"仅凭光钟变慢就断言 Alice 的一切对于 Bob 而言都变慢了，还不够令人信服。因为我们只证明了她的光钟变慢。她的其他钟呢？她的手机呢？她的心率呢？……"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| convincing enough | 足够令人信服；这里体现了物理学中的严谨性——一个特例不足以推广到全部 |
+| light clock | 光钟；我们推导时间膨胀时使用的唯一装置 |
+| other clocks | 其他钟；包括机械钟、电子钟等任何可能的计时装置 |
+| heart rate | 心率；作为生物过程的例子——如果时间膨胀是真实的，连生命节律也会变慢 |
 
 ### 推广论证的完整逻辑
 
@@ -406,6 +475,15 @@ print(f"relative error:     {abs(exact-approx)/exact:.2e}")
 
 > *"By 'moving clock slows down', one notes that the concept of 'absolute time' by Newton is gone with the speed. Different movers have different times; there is no absolute mover and thus there is no absolute time."*
 
+> 中文翻译：*"通过'运动时钟变慢'这一事实，人们注意到牛顿的'绝对时间'概念随速度一同消失了。不同的运动者拥有不同的时间；没有绝对的运动者，因此也没有绝对的时间。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| gone with the speed | 随速度一同消失了；"绝对时间"被相对论中速度依赖的时间膨胀所取代 |
+| different movers | 不同的运动者；处于不同惯性参考系中的观察者 |
+| absolute mover | 绝对运动者；如果存在绝对时间，就能定义谁在"真正"运动——但这不是事实 |
+| absolute time | 绝对时间；牛顿的形而上学时间概念，被狭义相对论彻底推翻 |
+
 ---
 
 ## 📖 2.8 参考系时间 vs. "看到"的时间（Frame Time vs. "See" Time）
@@ -413,6 +491,14 @@ print(f"relative error:     {abs(exact-approx)/exact:.2e}")
 ### Original Text
 
 > *"We have mentioned the concept 'frame time': If not otherwise stated, when we mention time, we mean time in one's frame, instead of the time that light comes to the observer's eye."*
+
+> 中文翻译：*"我们已经提到过'参考系时间'这个概念：除非特别说明，当我们提到'时间'时，我们指的是观察者参考系中的时间，而不是光信号到达观察者眼睛的那个时刻。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| frame time | 参考系时间；经过校准、已经扣除了光传播延迟的时间 |
+| not otherwise stated | 除非特别说明；在相对论文献中，默认"时间"指的是参考系时间 |
+| time that light comes to the observer's eye | 光到达观察者眼睛的时刻；这是"看到的时间"，包含光传播延迟 |
 
 这是一个极为重要的概念区分：
 
@@ -426,6 +512,15 @@ print(f"relative error:     {abs(exact-approx)/exact:.2e}")
 
 > *"Let us put two things at each point in space (i.e. the x-direction): A space label (ruler) and a clock. The clocks are synchronized at all points in space."*
 
+> 中文翻译：*"让我们在空间的每个点（即 x 方向上）放置两样东西：一个空间标签（尺子）和一个时钟。空间中所有位置的时钟都已互相校准同步。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| each point in space | 空间的每个点；在每个空间位置放置测量设备，构建参考系的"骨架" |
+| space label (ruler) | 空间标签（尺子）；标注空间坐标的标记物 |
+| synchronized | 同步的；所有空间位置的时钟经过校准，读数一致——这是参考系时间的前提 |
+| at all points in space | 空间中所有点；强调同步化覆盖整个参考系，不仅仅在原点 |
+
 在每个空间位置放置：
 - 一个**空间标签**（坐标位置）
 - 一个**已同步的时钟**
@@ -438,16 +533,6 @@ print(f"relative error:     {abs(exact-approx)/exact:.2e}")
 - 如果是"看到的时间"，则 Alice 朝 Bob 运动时显得快（蓝移），远离时显得慢（红移）——多普勒效应
 - 时间膨胀是扣除光传播时间后的**纯相对论效应**，与多普勒效应是两回事
 
-### 🔑 Key Vocabulary — 时间概念
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| frame time | 参考系时间 | time in one's reference frame, after accounting for light travel delay |
-| proper time | 固有时 | time measured by a clock at rest wrt the observed object |
-| synchronized clocks | 同步化的时钟 | clocks at different spatial locations calibrated to read the same frame time |
-| space label | 空间标签 | coordinate marker at each spatial position |
-| Doppler effect | 多普勒效应 | frequency shift due to relative motion toward/away |
-
 ---
 
 ## 📖 2.9 双生子佯谬（The Twin Paradox）
@@ -455,6 +540,14 @@ print(f"relative error:     {abs(exact-approx)/exact:.2e}")
 ### Original Text
 
 > *"We have shown: Bob finds that Alice is younger (according to the clocks in his frame). However, motion is relative (R). Thus shouldn't Alice also find Bob younger?"*
+
+> 中文翻译：*"我们已经证明：Bob 发现 Alice 更年轻（根据他自己参考系中的时钟）。然而，运动是相对的 (R)。那么，Alice 难道不应该也发现 Bob 更年轻吗？"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| younger | 更年轻；指经历的时间更少——运动者的固有时小于静止观察者的坐标时 |
+| motion is relative (R) | 运动是相对的；相对性原理——没有哪个惯性系是特殊的 |
+| shouldn't ... also | 难道不应该……也；正是这种"应该对称但似乎不对称"的张力构成了佯谬 |
 
 这是狭义相对论中最著名、最令人困惑的思想实验之一。
 
@@ -468,6 +561,14 @@ print(f"relative error:     {abs(exact-approx)/exact:.2e}")
 ### 情况一：双方都是惯性系（永不返回）
 
 > *"Alice and Bob are both inertial frames, i.e. they move wrt each other forever."*
+
+> 中文翻译：*"Alice 和 Bob 都是惯性参考系，即他们永远相对运动下去。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| inertial frames | 惯性参考系；加速度为零的参考系，牛顿第一定律在其中成立 |
+| wrt each other | 相对于彼此；他们以恒定相对速度运动 |
+| forever | 永远；这里强调双方都不经历加速度，始终保持匀速直线运动 |
 
 - 两人以恒定相对速度永远分离
 - **只能相遇一次**（出发时）
@@ -487,6 +588,13 @@ print(f"relative error:     {abs(exact-approx)/exact:.2e}")
 
 > *"Alice first moves and later returns to meet Bob."*
 
+> 中文翻译：*"Alice 先运动出去，之后又返回与 Bob 会面。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| later returns | 之后返回；这意味着 Alice 必须经历掉头（加速度），不再是惯性系 |
+| meet Bob | 与 Bob 会面；第二次相遇使得直接的年龄比较成为可能 |
+
 - 这是第一部分开篇的场景
 - Alice 要返回，必须经历一段**非惯性运动**（减速、调头、加速）
 - 在整个旅程中，Alice 的世界线（worldline）**不是直线**——加速度打破了对惯性
@@ -494,6 +602,15 @@ print(f"relative error:     {abs(exact-approx)/exact:.2e}")
 - Alice 不是惯性系——**(R) 在调头阶段不适用于 Alice**
 
 > *"Then we can only trust Bob at the moment. This is because for Alice to return, there exist a period of time when Alice is not in an inertial frame. The principle of relativity (we used a lot of times when deriving the conclusion) does not apply for non-inertial observers. Thus we can only trust Bob's statement that indeed Alice is younger."*
+
+> 中文翻译：*"此时我们只能信任 Bob。这是因为 Alice 要想返回，必须经历一段她不在惯性参考系中的时间。相对性原理（我们在推导结论时反复使用了它）不适用于非惯性观察者。因此我们只能信任 Bob 的断言：Alice 确实更年轻。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| only trust Bob | 只能信任 Bob；当 Alice 经历加速度时，Bob 是可靠的参考系 |
+| not in an inertial frame | 不在惯性参考系中；调头过程中的加速度使 Alice 成为非惯性观察者 |
+| does not apply for non-inertial observers | 不适用于非惯性观察者；(R) 保证所有惯性系等价，但非惯性系不在这个保护伞下 |
+| indeed | 确实；强调这不是错觉或视角问题——Alice 客观上经历了更少的固有时 |
 
 | 特性 | 情况二 |
 |------|--------|
@@ -560,6 +677,15 @@ Age ratio (Alice/Bob): 0.100
 
 > *"The twin paradox is an example of time travel to the future. Take a spaceship trip and back, you will be in the future. If the space trip is fast enough, within 1 year round trip, you can see the earth of the next century, or even later."*
 
+> 中文翻译：*"双生子佯谬是去往未来的时间旅行的一个例子。乘坐飞船往返一趟，你就会进入未来。如果太空旅行的速度足够快，在 1 年的往返行程内，你可以看到下个世纪甚至更远未来的地球。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| time travel to the future | 去往未来的时间旅行；物理上可能——通过时间膨胀效应使旅行者的固有时远小于地球的坐标时 |
+| spaceship trip and back | 飞船往返；关键在于返回——这样才能比较两个观察者经历的时间差异 |
+| within 1 year round trip | 在一年往返内；飞船固有时仅1年，地球却已过了几十年甚至上百年 |
+| next century | 下个世纪；当 γ ≈ 100 时，飞船内1年约等于地球上100年 |
+
 ### 去未来的时间旅行：可能
 
 时间膨胀为**去往未来的时间旅行**提供了物理机制：
@@ -572,9 +698,24 @@ Age ratio (Alice/Bob): 0.100
 
 > *"In general relativity you will see more ways to travel to the future such as stay close to a black hole."*
 
+> 中文翻译：*"在广义相对论中，你会看到更多去往未来的旅行方式，比如待在黑洞附近。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| general relativity | 广义相对论；爱因斯坦的引力理论，将引力解释为时空弯曲 |
+| stay close to a black hole | 待在黑洞附近；强引力场中的引力时间膨胀——越靠近事件视界，时间流逝越慢 |
+
 ### 回到过去的时间旅行：可能不可能？
 
 > *"What about time travel to the past? Later in this part you will find difficulties within the framework of special relativity to prevent time travel to the past."*
+
+> 中文翻译：*"那么回到过去的时间旅行呢？在本部分之后的内容中，你会发现狭义相对论框架内阻止回到过去的种种困难。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| time travel to the past | 回到过去的时间旅行；在物理上很可能不可能——违反因果律 |
+| difficulties | 困难；狭义相对论的结构（光锥、因果性）天然阻止超光速和回到过去 |
+| prevent | 阻止；狭义相对论框架通过要求信息传递不大于光速来自动防止因果悖论 |
 
 狭义相对论框架内，回到过去的时间旅行面临严重障碍：
 
@@ -586,15 +727,13 @@ Age ratio (Alice/Bob): 0.100
 
 > *"It is probably impossible to travel to the past, though no decisive conclusion can be made at this moment."*
 
-### 🔑 Key Vocabulary — 时间旅行
+> 中文翻译：*"回到过去很可能是不可能的，尽管目前尚无法做出决定性的结论。"*
 
-| English | 中文 | Notes |
-|---------|------|-------|
-| time travel to the future | 去未来的时间旅行 | physically possible via time dilation |
-| time travel to the past | 回到过去的时间旅行 | probably impossible; causality issues |
-| causality paradox | 因果悖论 | grandfather paradox: prevent your own birth |
-| black hole | 黑洞 | extreme gravitational time dilation near event horizon |
-| closed timelike curve (CTC) | 闭合类时曲线 | hypothetical spacetime loop allowing travel to the past |
+| 单词/短语 | 注释 |
+|-----------|------|
+| probably impossible | 很可能不可能；物理学家目前强烈的共识，但不是绝对证伪 |
+| decisive conclusion | 决定性的结论；由于量子引力理论尚未完成，对时间旅行的终极判决仍待做出 |
+| at this moment | 目前；物理学对回到过去的问题仍保持谨慎的开放态度 |
 
 ---
 
@@ -603,6 +742,15 @@ Age ratio (Alice/Bob): 0.100
 ### Original Text
 
 > *"This section is not about any detailed rule of physics. Nevertheless, considering that modern physics is so different from classical physics, it is important to pause and discuss about method of learning."*
+
+> 中文翻译：*"本节不涉及任何具体的物理规则。然而，考虑到现代物理与经典物理如此不同，有必要暂停一下，讨论一下学习方法。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| not about any detailed rule of physics | 不涉及任何具体物理规则；这是一段元认知讨论，聚焦于"如何学习物理"而非物理内容本身 |
+| modern physics | 现代物理；包括相对论和量子力学，其特征是反直觉、超出日常经验 |
+| classical physics | 经典物理；牛顿力学和麦克斯韦电磁学，与日常直觉一致 |
+| pause and discuss | 暂停一下讨论一下；讲义在此处刻意打断物理内容的推进，重视学习方法的引导 |
 
 讲义在这个位置插入了一段**元认知（meta-cognition）讨论**，关于如何学习现代物理。这是因为时间膨胀已经让读者尝到了现代物理的"反常"（counter-intuitive）味道。
 
@@ -627,6 +775,14 @@ Age ratio (Alice/Bob): 0.100
 
 > *"The 3rd way of thinking is the major direction to go if you'd like to become an innovative physicist, or at least think as a physicist."*
 
+> 中文翻译：*"如果你想成为一名有创新能力的物理学家，或者至少像物理学家一样思考，第三种思维方法是主要的前进方向。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| 3rd way of thinking | 第三种思维方式；指"物理图像引导"——在脑中放电影来理解物理问题 |
+| innovative physicist | 有创新能力的物理学家；能够提出新问题和新理论，而非仅解决已被精确定义的问题 |
+| think as a physicist | 像物理学家一样思考；核心是建立对物理世界的直觉，而不只是掌握数学工具 |
+
 | 原因 | 说明 |
 |------|------|
 | **连接真实世界** | 物理图像告诉你理论的可能应用和近似简化方向；模式匹配和反向搜索做不到 |
@@ -648,19 +804,6 @@ Age ratio (Alice/Bob): 0.100
 
 > 核心思想：物理不是公式的集合——它是关于**世界如何运作的图像和直觉**。公式只是将这些图像精确表达出来的工具。
 
-### 🔑 Key Vocabulary — 学习方法论
-
-| English | 中文 | Notes |
-|---------|------|-------|
-| physical intuition | 物理直觉 | gut-level understanding of how physics works |
-| physical picture | 物理图像 | mental model/movie of what is physically happening |
-| pattern matching | 模式匹配 | mapping a new problem onto a known one |
-| inverse search | 反向搜索 | working backwards from the desired answer |
-| counter-intuitive | 反直觉的 | contrary to everyday experience |
-| meta-cognition | 元认知 | thinking about thinking; awareness of one's learning process |
-| modularize | 模块化 | break into simpler, independent building blocks |
-| building block | 积木/构件 | simplest component whose intuition is well-established |
-
 ---
 
 ## 📖 2.12 习题详解：手榴弹问题（Exercise: The Hand Grenade）
@@ -668,6 +811,15 @@ Age ratio (Alice/Bob): 0.100
 ### Original Text
 
 > *"A 'hand grenade' is a kind of bomb that explodes a certain time after you trigger it. Let the time interval between trigger and explosion be Δt when the hand grenade is at rest. Now you throw the hand grenade with speed v. Calculate the distance the hand grenade travels before explosion in the framework of special relativity."*
+
+> 中文翻译：*"'手榴弹'是一种在触发后经过一定时间就会爆炸的炸弹。设手榴弹静止时，从触发到爆炸的时间间隔为 Δt。现在你以速度 v 将手榴弹扔出。在狭义相对论的框架下，计算手榴弹在爆炸前飞行的距离。"*
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| hand grenade | 手榴弹；以此为比喻——一个带有"内部倒计时"的物体，其固有时 Δt 是固定的 |
+| trigger | 触发/引爆；指启动手榴弹内部计时的动作——对应时间间隔的起点 |
+| at rest | 静止时；手榴弹固有的爆炸倒计时，即固有时 |
+| in the framework of special relativity | 在狭义相对论的框架下；提示需要用时间膨胀来修正经典的计算 |
 
 ### 解法一：模式匹配
 

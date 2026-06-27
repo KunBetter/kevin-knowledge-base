@@ -1,6 +1,16 @@
 # 第10章：群体、集群和交通堵塞 (Herds, Flocks, and Traffic Jams)
 
+> *"The agent-based models in Chapter 9 are based on a grid, where agents occupy discrete locations in two dimensions. In this chapter, we turn to agents that move in continuous space — cars on a one-dimensional highway and birds in three-dimensional space."*
 > 第9章的代理模型基于**网格**，代理占据二维离散位置。本章转向**连续空间**中的代理运动——一维高速公路上的汽车和三维空间中的鸟群。本章代码在 `chap10.ipynb` 中。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| agent-based models | 基于代理的模型，每个代理独立决策，宏观行为从微观互动中涌现 |
+| grid | 网格，将空间划分为离散单元的抽象结构 |
+| discrete locations | 离散位置，只能占据网格上的特定坐标，不能位于中间位置 |
+| continuous space | 连续空间，代理可以位于任意实数坐标，不受网格约束 |
+| one-dimensional | 一维的，本章中指环形公路只沿一个方向延伸 |
+| three-dimensional | 三维的，Boid 模型在 x、y、z 三个轴向上运动 |
 
 ---
 
@@ -64,7 +74,15 @@ def move(self, driver):
 | `speed_limit` | 40 | 速度上限 |
 | `eps` | 0 ~ 0.02 | 速度随机误差比例 |
 
+> *"The key design choice is that `choose_acceleration` is the driver's only decision; everything else is determined by the 'physics' of the simulation."*
 > **关键设计**：`choose_acceleration` 是驾驶员的**唯一决策**，其余由"物理"规则决定。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| design choice | 设计决策，在建模时对哪些行为由代理决策、哪些由环境规则约束的划分 |
+| decision | 决策，代理在给定信息下主动做出的选择 |
+| physics | 物理规则，模型中不由代理控制、而是系统强制执行的约束（如速度上限、碰撞避免） |
+| simulation | 模拟，通过计算机程序重现真实世界现象的过程 |
 
 ### 默认 Driver 类
 
@@ -99,7 +117,15 @@ class Driver:
 | 0.001 | 0.1% 误差 | **20 辆** |
 | 0.01 | 1% 误差 | **10 辆** |
 
+> *"Even a tiny amount of random error can dramatically reduce the capacity of the highway. With just 1% error, the capacity drops from 25 cars to 10."*
 > **结论**：即使极小的随机误差也会**严重降低**公路通行能力。1% 的误差就能让容量从 25 辆降至 10 辆。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| random error | 随机误差，模拟中人为引入的速度波动，代表驾驶员操作的不精确性 |
+| dramatically reduce | 大幅降低，强调影响程度远超直觉预期 |
+| capacity | 容量/通行能力，公路在维持最高速度前提下能容纳的最大车辆数 |
+| drops | 下降/骤降，暗示非线性突变而非线性递减 |
 
 ### 理想情况分析
 
@@ -210,7 +236,15 @@ def get_neighbors(self, boids, radius, angle):
 2. 距离 ≤ **radius**
 3. 相对方向与自身速度方向的夹角 ≤ **angle**
 
+> *"This models the limited field of view of real animals: each boid can only see companions within a certain angle in front of it."*
 > 这模拟了动物的**有限视野**：只能看到前方一定角度范围内的同伴。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| limited field of view | 有限视野，动物无法看到身后或侧面远处的同伴，只能感知前方扇形区域 |
+| companions | 同伴，同一群体中的其他个体 |
+| angle | 视角/角度，以自身前进方向为基准的可视扇形范围 |
+| models | 建模/模拟，将生物学特征转化为算法参数的过程 |
 
 ### 各方法的参数对比
 
@@ -296,7 +330,15 @@ def move(self, mu=0.1, dt=0.1):
 | William James | 二阶段模型：随机生成 + 确定性选择 | 行为可随机 → 不可预测 |
 | David Hume | 选择的感知是**幻觉** | 行为完全确定 |
 
+> *"Both views agree that there is a conflict: if any part of a decision is determined, the whole cannot involve free will."*
 > 两者都认为**存在冲突**：部分确定 → 整体不能有自由意志
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| determined | 被决定的，由先前的物理状态和自然规律唯一确定的结果 |
+| free will | 自由意志，人类拥有在给定条件下自主做出选择的能力 |
+| conflict | 矛盾/冲突，指决定论与自由意志在逻辑上似乎无法共存 |
+| two-stage model | 二阶段模型，James 提出的方案：第一阶段随机生成选项，第二阶段确定性选择 |
 
 ### Downey 的复杂系统视角
 
@@ -306,7 +348,16 @@ def move(self, mu=0.1, dt=0.1):
 - 交通堵塞向后移动 ≠ 汽车向后移动
 - **人可以有自由意志 ≠ 神经元必须有自由意志**
 
+> *"This is the philosophical implication of hierarchical emergence: different levels have different causal descriptions. At the level of the agent/person, 'free will' is a meaningful causal concept, even if the underlying level is deterministic."*
 > 这是**层次涌现**的哲学推论：不同层次有不同的因果描述。在代理人/人的层次上，"自由意志"是一个有意义的因果概念，即使底层是确定性的。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| hierarchical emergence | 层次涌现，复杂系统中不同层级展现出各自独立的规律和因果描述 |
+| causal description | 因果描述，对某一现象"为什么发生"的解释框架，依赖于所观察的层级 |
+| deterministic | 决定论的/确定性的，每个事件都由先前状态必然导致 |
+| compatibilism | 相容论，认为自由意志与决定论可以同时为真的哲学立场 |
+| underlying level | 底层/基础层级，构成系统的基本单元层级（如神经元之于大脑、汽车之于交通） |
 
 ---
 

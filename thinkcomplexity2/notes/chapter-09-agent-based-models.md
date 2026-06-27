@@ -1,6 +1,15 @@
 # 第9章：基于代理的模型 (Agent-Based Models)
 
+> *"Agent-based models represent a shift from rule-based models: agents are not governed by fixed rules. Instead, they collect information, make decisions, and take actions. The central challenge is understanding the relationship between individual decisions and system-level behavior — a relationship that is often unpredictable and gives rise to emergence, one of the core concepts of complexity science."*
+
 > 本章从"基于规则的模型"转向**基于代理的模型**——代理收集信息、做出决策、采取行动。重点探讨个体决策与系统行为之间的**不可预测关系**，以及**涌现**这一复杂性科学的核心概念。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| agent-based models | 基于代理的模型：个体（代理）具有自主决策能力的计算模型 |
+| rule-based models | 基于规则的模型：如细胞自动机，代理按固定规则演化的模型 |
+| emergence | 涌现：系统整体表现出的、无法从个体属性直接推导的性质 |
+| system-level behavior | 系统级行为：大量个体通过局部相互作用产生的宏观模式 |
 
 ---
 
@@ -25,7 +34,17 @@
 - 关键洞察：代理本身**毫无种族歧视**——他们只是不愿成为极少数派
 - 即便只是**轻度排外**（需要 ≥30% 同类），最终隔离程度高达 **76%-82%**
 
+> *"One of the most important lessons of Schelling's model is that we cannot infer individual motives from system-level outcomes. Observing high levels of segregation in a real city does not, by itself, tell us anything about the preferences or prejudices of the individuals who live there."*
+
 > **不可以从结果反推原因**：观察到现实城市的隔离现象，不能直接推断个体存在种族歧视。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| infer | 推断：从结果反推原因，这是一种逻辑谬误 |
+| motives | 动机：个体行为背后的心理原因或偏好 |
+| system-level outcomes | 系统级结果：大量个体相互作用后产生的宏观现象 |
+| segregation | 隔离：不同群体在物理空间上的分离 |
+| prejudices | 偏见：对不同群体成员先入为主的负面态度 |
 
 ---
 
@@ -93,7 +112,16 @@ n=100，不同 p 值的隔离程度（同类邻居平均比例）：
 | 10 步 | **76%** | 高度隔离 |
 | 稳态 (p=0.4) | **82%** | 大多数代理完全没有异色邻居 |
 
-**核心教训**：个体仅要求 30% 同类邻居即可满意 → 系统层面产生 **75%+ 的隔离**。个体意图与系统结果之间存在**巨大的、不可预见的差距**。
+> *"The disparity between individual preferences and system outcomes is striking. Even when agents are satisfied with as few as 30% similar neighbors — a preference that can hardly be described as xenophobic — the resulting system-wide segregation reaches 76–82%. There is a large, unforeseen gap between individual intent and system result."*
+
+> **核心教训**：个体仅要求 30% 同类邻居即可满意 → 系统层面产生 **75%+ 的隔离**。个体意图与系统结果之间存在**巨大的、不可预见的差距**。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| disparity | 差距：个体层面的温和偏好与系统层面的极端结果之间的鸿沟 |
+| xenophobic | 排外的：对异类的恐惧或排斥。30%的阈值远谈不上排外 |
+| system-wide | 系统范围内的：影响整个系统的宏观层面 |
+| unforeseen | 不可预见的：无法从个体规则推断出的结果 |
 
 ---
 
@@ -121,6 +149,17 @@ Epstein & Axtell (1996) 提出的"人工社会"模型，用于经济学和社会
 2. **移动**：到达目标格，**收获**该格的糖
 3. **消耗**：减去代谢所需糖量 → 若为负则**饿死移除**
 4. 环境**再生**：每格 +1 糖（不超过容量）
+
+> *"Sugarscape is an 'artificial society' model proposed by Epstein and Axtell in 1996. Agents with heterogeneous endowments — vision, metabolism, and initial sugar — interact with a renewable resource landscape, producing emergent patterns of migration, population dynamics, and wealth distribution."*
+
+> Sugarscape 是 Epstein 和 Axtell 于 1996 年提出的"人工社会"模型。具有异质禀赋（视力、代谢、初始糖量）的代理与可再生资源环境交互，产生迁移、人口动态和财富分布等涌现模式。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| artificial society | 人工社会：通过计算机模拟构建的虚拟社会系统 |
+| heterogeneous endowments | 异质禀赋：每个代理天生被赋予不同的属性（视力、代谢等） |
+| renewable | 可再生的：资源每步会自动恢复一定数量 |
+| metabolism | 代谢：代理每时间步必须消耗的糖量，决定了生存的"成本" |
 
 ### 结果
 
@@ -151,6 +190,17 @@ Epstein & Axtell (1996) 提出的"人工社会"模型，用于经济学和社会
 - 分布**右偏**，近似**对数正态分布**（重尾）
 - 与现实世界财富分布一致：**几乎所有国家和全球的财富分布都是重尾的**
 - 糖的再生率和简单经济规则 → **不平等是许多经济体的固有特征**，即便在极简模型中也难以避免或消除
+
+> *"Historical accident — being born at the right place at the right time with favorable attributes — appears to be sufficient to generate extreme wealth inequality. Even in this minimal economy, inequality is not a bug to be fixed but an inherent feature of the dynamics."*
+
+> 历史偶然性——在正确的时间、正确的地点出生并拥有有利属性——似乎足以产生极端的财富不平等。即便在这个极简经济中，不平等也不是需要修复的缺陷，而是系统动力学的固有特征。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| historical accident | 历史偶然性：由于随机初始条件（出生位置、属性）导致的路径依赖 |
+| favorable attributes | 有利属性：高视力、低代谢等使代理容易积累财富的特征 |
+| inherent feature | 固有特征：系统结构本身必然产生的属性，而非外部因素导致 |
+| heavy-tailed | 重尾的：分布中极端值出现的概率远高于正态分布的预测 |
 
 ---
 
@@ -210,13 +260,32 @@ class Sugarscape(Cell2D):
 - ⚠️ **代理只能向北或向东移动，但波却沿对角线（东北）移动！**
 - 这是**涌现的典型例子**：群体（波）具有个体代理不具备的性质和行为
 
+> *"The migration wave is a striking example of emergence: individual agents can move only north or east, yet the wave as a coherent entity propagates diagonally — northeast. The wave has a property that no individual agent possesses. The group exhibits behaviors that cannot be reduced to the behaviors of its members."*
+
+> 迁徙波是涌现的一个惊人例子：个体代理只能向北或向东移动，但波作为一个连贯的整体却沿对角线（东北方向）传播。波具有任何个体代理都不具备的属性。群体表现出无法还原为其成员行为的行为。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| coherent entity | 连贯实体：波表现为一个统一的、可辨认的对象，而非个体的简单集合 |
+| propagates | 传播：波在空间中移动的方式 |
+| diagonally | 对角线方向：波沿东北（对角线）移动，而个体只能沿南北或东西移动 |
+| reduced to | 还原为：将系统行为分解为个体行为的简单加总 |
+
 ---
 
 ## 9.8 涌现 (Emergence)
 
 ### 什么是涌现？
 
-**涌现属性**：来自组件间**相互作用**、而非组件自身属性的系统特征。
+> *"An emergent property is a characteristic of a system that results from the interactions of its components, not from properties of the components themselves."*
+
+> **涌现属性**：来自组件间**相互作用**、而非组件自身属性的系统特征。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| emergent property | 涌现属性：由组件相互作用产生的系统级特征，无法从单个组件推断 |
+| interactions | 相互作用：组件之间在局部层面进行的、遵循简单规则的行为交换 |
+| components | 组件：构成系统的个体元素（代理、细胞等） |
 
 ### 什么是伪涌现？
 
@@ -235,11 +304,33 @@ class Sugarscape(Cell2D):
 - **数值/模拟方法**：时间正比于 t，且对许多系统存在**可预测性的时间上限**
 - **推论**：涌现属性**根本上不可预测**，不应期望为复杂系统找到以计算捷径形式存在的"自然法则"
 
+> *"Wolfram argues that many cellular automata — and by extension many complex systems — are computationally irreducible: there is no shortcut to predicting their behavior. The only way to know what they will do is to simulate them step by step. If this is true, then emergent properties are fundamentally unpredictable, and we should not expect to find 'laws of nature' that serve as computational shortcuts for complex systems."*
+
+> Wolfram 论证道，许多细胞自动机——进而许多复杂系统——是计算不可约的：预测其行为没有捷径可走。唯一知道它们会做什么的方式就是一步步模拟。如果这是真的，那么涌现属性从根本上就是不可预测的，我们不应期望找到作为复杂系统计算捷径的"自然法则"。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| computationally irreducible | 计算不可约的：系统的演化无法通过比完整模拟更短的计算来预测 |
+| shortcut | 捷径：比一步步模拟更快地预测系统行为的方法（如解析公式） |
+| fundamentally unpredictable | 根本上不可预测的：即便知道全部规则和初始状态也无法提前知道结果 |
+| simulate | 模拟：通过计算机逐步执行系统规则来观察其行为 |
+
 ### 哲学争论
 
 - 有人认为"涌现"只是**无知**的代名词——将来理解了就不是涌现
 - 本书立场：不应假设涌现属性**永远**无法被还原解释，但也不应假设**一定**能被还原解释
 - **计算等价性原理**给出了强有力的理由相信：至少某些涌现属性**绝不可能**被经典还原论模型所"解释"
+
+> *"The Principle of Computational Equivalence gives us strong reasons to believe that at least some emergent properties can never be 'explained' by classical reductionist models. We should neither assume that emergence is always irreducible, nor assume that it is always reducible."*
+
+> 计算等价性原理给出了强有力的理由相信：至少某些涌现属性绝不可能被经典还原论模型所"解释"。我们既不应假设涌现总是不可还原的，也不应假设它总是可还原的。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| Principle of Computational Equivalence | 计算等价性原理：Wolfram 提出的核心原理，认为几乎所有非平凡系统都达到相同的最大计算复杂度 |
+| reductionist | 还原论的：试图将系统行为完全解释为其组件行为的科学方法论 |
+| irreducible | 不可还原的：无法分解为更简单部分来解释的 |
+| reducible | 可还原的：可以从组件的行为逐步推导出系统行为 |
 
 ---
 

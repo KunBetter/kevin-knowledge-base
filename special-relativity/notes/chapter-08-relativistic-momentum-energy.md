@@ -16,20 +16,6 @@
 
 讲义预告了一个更深刻的答案（将在"从作用量到自然定律"部分展开）：守恒律的存在**不是运气**，而是**没有任何时刻、没有任何空间位置特殊**这一事实的必然结果。这个论证在牛顿力学和狭义相对论中同样成立。
 
-### 🔑 关键词汇
-
-| English | 中文 | 说明 |
-|---------|------|------|
-| **conservation law** | 守恒律 | 某些物理量在时间演化中保持不变的定律 |
-| **proper time (dτ)** | 原时 | 运动物体自身时钟测量的时间间隔，dτ = dt/γ |
-| **observer-independent** | 观察者无关的 | 在所有惯性系中取相同值的量 |
-| **relativistic momentum** | 相对论动量 | p = γmv，用原时而非坐标时来定义 |
-| **relativistic energy** | 相对论能量 | E = γmc²，包含静止能量和动能 |
-| **rest energy** | 静止能量 | E₀ = mc²，物体即使静止也具有的能量 |
-| **4-momentum** | 四维动量 | p^μ = (E/c, p)，将能量和动量统一为一个四矢量 |
-| **invariant mass** | 不变质量 | m²c⁴ = E² - p²c²，洛伦兹不变量 |
-| **mass defect** | 质量亏损 | 系统总质量小于各组分质量之和，差值对应结合能 |
-
 ---
 
 ## 📖 8.1 牛顿动量在相对论中为何失效？
@@ -72,7 +58,15 @@ m₁ · vᴀ₁y / [γ(1 + vᴀ₁ₓ·v/c²)] + ... = m₁ · v'ᴀ₁y / [γ(1
 
 **红色因子**（1 + vᴀ₁ₓ·v/c²）的出现使得方程不再具有与 Alice 系中相同的形式。
 
-> **不幸的结论**：牛顿的动量定义在狭义相对论中不是守恒量——它不是一条自然定律！
+> *"The unfortunate conclusion: Newton's definition of momentum is not a conserved quantity in special relativity — it is not a law of nature!"*
+> 不幸的结论：牛顿的动量定义在狭义相对论中不是守恒量——它不是一条自然定律！
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| conserved quantity | 守恒量——在时间演化或参考系变换下保持不变的物理量 |
+| law of nature | 自然定律——在所有惯性系中普遍成立的物理规律 |
+| velocity addition formula | 速度叠加公式——相对论中不再是简单的 v₁+v₂，而是 (v₁+v₂)/(1+v₁v₂/c²) |
+| inertial frame | 惯性系——不受外力或受力平衡的参考系，狭义相对论的基本舞台 |
 
 ---
 
@@ -99,8 +93,6 @@ dτ ≡ √(-ds²/c²) = √(dt² - dx²/c²) = dt/γ
 - dτ 是**运动物体自身携带的时钟**测量的时间
 - 在物体自身的静止系中，dx = 0，所以 dτ = dt——这验证了 dτ 就是"物体自身测量的时间"
 - dτ 在洛伦兹变换下**不变**
-
-### 🔑 关键词汇：原时（Proper Time）
 
 **原时**是狭义相对论中最核心的概念之一。它不是"绝对的宇宙时间"，而是**由运动物体自身定义的、独立于任何外部观察者的时间度量**。想象一个与物体一起运动的时钟——原时就是这个时钟的读数间隔。
 
@@ -135,7 +127,15 @@ p = m · dx/dτ = γ m v
 F ≡ dp/dt = d(γmv)/dt = γ m v̇ + γ³ m v(v·v̇)/c²
 ```
 
-> **注意**：这里用 dt 而非 dτ，因为这样更直观——想象一个静止的观察者推一个物体并观察它的加速度，力代表这个静止观察者需要额外付出多少努力。
+> *"Note: We use dt rather than dτ here because it is more intuitive — imagine a stationary observer pushing an object and watching its acceleration. The force represents how much extra effort this stationary observer needs to exert."*
+> 注意：这里用 dt 而非 dτ，因为这样更直观——想象一个静止的观察者推一个物体并观察它的加速度，力代表这个静止观察者需要额外付出多少努力。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| coordinate time (dt) | 坐标时——某个特定惯性系中的时间坐标，依赖于观察者 |
+| proper time (dτ) | 原时——物体自身时钟测量的时间，洛伦兹不变量 |
+| stationary observer | 静止观察者——在给定参考系中处于静止的观察者 |
+| relativistic force | 相对论力——定义为 F = dp/dt，不是简单的 F = ma |
 
 ### 关键物理后果：F → ∞ 当 v → c
 
@@ -145,9 +145,16 @@ F ≡ dp/dt = d(γmv)/dt = γ m v̇ + γ³ m v(v·v̇)/c²
 
 ### 追光之梦的终结
 
-> 爱因斯坦 16 岁时开始梦想：如果他能跑得和光一样快会发生什么？光是否会停止振荡？这是否会与麦克斯韦电磁理论矛盾？
->
-> 狭义相对论给出了答案：**没有人能被加速到光速**。这个看似矛盾的思想实验永远不会发生。爱因斯坦的"追光之梦"就此终结——但这终结本身，却催生了物理学最深刻的理论之一。
+> *"At age 16, Einstein began to dream: what would happen if he could run as fast as light? Would light stop oscillating? Would this contradict Maxwell's electromagnetic theory? Special relativity gives the answer: no one can be accelerated to the speed of light. This seemingly paradoxical thought experiment can never happen. Einstein's 'dream of chasing light' thus ends — but this very ending gave birth to one of the most profound theories in physics."*
+> 爱因斯坦 16 岁时开始梦想：如果他能跑得和光一样快会发生什么？光是否会停止振荡？这是否会与麦克斯韦电磁理论矛盾？狭义相对论给出了答案：**没有人能被加速到光速**。这个看似矛盾的思想实验永远不会发生。爱因斯坦的"追光之梦"就此终结——但这终结本身，却催生了物理学最深刻的理论之一。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| thought experiment | 思想实验——不依赖实际仪器、仅凭逻辑推理进行的理论分析，爱因斯坦的标志性工具 |
+| Maxwell's electromagnetic theory | 麦克斯韦电磁理论——预言光速为常数的经典电磁学理论，狭义相对论的重要前驱 |
+| paradoxical | 看似矛盾的——表面上自相矛盾但在更深层次上自洽的命题 |
+| speed of light (c) | 光速——狭义相对论中不可逾越的速度上限，约 3×10⁸ m/s |
+| oscillate | 振荡——电磁波（包括光）中电场和磁场的周期性变化 |
 
 ---
 
@@ -172,7 +179,7 @@ F ≡ dp/dt = d(γmv)/dt = γ m v̇ + γ³ m v(v·v̇)/c²
 
 由动量守恒：**M = 2γm > 2m**！
 
-### 🔑 关键词汇：质量亏损与能量释放
+### 质量亏损与能量释放
 
 | 概念 | 含义 | 实例 |
 |------|------|------|
@@ -234,7 +241,16 @@ E_rest = mc²
 - **对应多少物质？**：约 10 克 —— 大约一节 AAA 电池的重量！
 - **一节 AAA 电池的化学能**：几千焦耳
 
+> *"This is the power of E = mc²: the energy contained in matter far exceeds the chemical or mechanical energy scales of everyday experience."*
 > 这就是 E = mc² 的威力：物质中蕴含的能量远超日常经验中的化学或机械能量尺度。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| rest energy | 静止能量——物体在静止系中具有的能量 E₀ = mc²，即使没有任何运动 |
+| chemical energy | 化学能——储存在化学键中的能量，日常电池、燃料的能源形式 |
+| mechanical energy | 机械能——动能与势能之和，日常宏观物体运动的能量 |
+| c² factor | c² 因子——约 9×10¹⁶ m²/s²，是日常能量与质量之间的巨大换算系数 |
+| energy scale | 能量尺度——特定物理过程中涉及的典型能量大小 |
 
 ### 为什么星星会发光？
 
@@ -304,7 +320,7 @@ m²c⁴ = E² - p²c²     （或用"自然单位" c = 1：m² = E² - p²）
 - 虽然 E 和 p 各自依赖于观察者，但 **m²c⁴ = E² - p²c² 这个组合是洛伦兹不变量**——它是粒子本身的性质
 - 这就像在三维空间中，坐标矢量的长度 x²+y²+z² 在旋转下不变一样自然
 
-### 🔑 关键词汇：不变质量 vs 相对论质量
+### 不变质量 vs 相对论质量
 
 | 概念 | 公式 | 性质 | 是否常用 |
 |------|------|------|---------|
@@ -323,7 +339,15 @@ m²c⁴ = E² - p²c²     （或用"自然单位" c = 1：m² = E² - p²）
 - 若质量 m > 0，则 γ 发散，p 和 E 都发散——不可能
 - **唯一自洽的解：m = 0**
 
+> *"If we regard light as a particle (the photon), its mass must be zero."*
 > 如果我们把光看作粒子（光子），其质量必须为零。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| photon | 光子——电磁辐射（包括可见光）的量子，静止质量为零 |
+| self-consistent | 自洽的——理论内部没有逻辑矛盾，所有结论与前提一致 |
+| diverge | 发散——物理量趋于无穷大，在物理学中通常表示理论在该极限下失效 |
+| null vector | 类光矢量——4-矢量范数为零，对应以光速运动的粒子 |
 
 ### 光的四维动量
 
@@ -376,7 +400,17 @@ EA = γ EB (1 - (v/c) cosθ)
 ωA = γ ωB (1 - (v/c) cosθ)
 ```
 
-> **讲义强调**：这个可选框的目的不仅是给出相对论多普勒效应公式，更是展示**4-矢量内积洛伦兹不变性方法的威力**。多普勒效应也可以从时间膨胀和长度收缩直接推导，但对于一般的 θ 方向，计算将**复杂得多**。用 4-矢量内积，几行就得到精确结果。
+> *"The handout emphasizes: the purpose of this optional box is not only to present the relativistic Doppler effect formula, but more importantly to demonstrate the power of the 4-vector inner product's Lorentz invariance method. The Doppler effect can also be derived directly from time dilation and length contraction, but for a general angle θ, the calculation would be far more complicated. With the 4-vector inner product, the exact result is obtained in just a few lines."*
+> 讲义强调：这个可选框的目的不仅是给出相对论多普勒效应公式，更是展示**4-矢量内积洛伦兹不变性方法的威力**。多普勒效应也可以从时间膨胀和长度收缩直接推导，但对于一般的 θ 方向，计算将**复杂得多**。用 4-矢量内积，几行就得到精确结果。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| Doppler effect | 多普勒效应——由于观察者与波源相对运动导致的频率变化，声波和光波均有此效应 |
+| 4-vector inner product | 四矢量内积——在闵可夫斯基时空中定义的洛伦兹不变标量积 gμν a^μ b^ν |
+| Lorentz invariance | 洛伦兹不变性——在洛伦兹变换下保持不变的性质，是狭义相对论的核心对称性 |
+| time dilation | 时间膨胀——运动时钟变慢的相对论效应 |
+| length contraction | 长度收缩——运动物体在运动方向上长度缩短的相对论效应 |
+| general angle θ | 一般角度 θ——观察者运动方向与光传播方向之间的任意夹角，非平行或垂直的情况 |
 
 ---
 

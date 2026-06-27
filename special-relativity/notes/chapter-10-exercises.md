@@ -23,19 +23,23 @@
 
 ### E1.1 平面波
 
-**Original Prompt**
-
 > Consider "plane wave" $e^{ik(x-ct)}$. Interpret the real part of $e^{ik(x-ct)}$ as the amplitude of the wave.
 >
 > 1. For fixed $t$, show the plane wave indeed looks like a wave.
 > 2. Figure out the moving direction and speed of the wave.
+>
+> 考虑"平面波" $e^{ik(x-ct)}$。将 $e^{ik(x-ct)}$ 的实部解释为波的振幅。
+>
+> 1. 对固定的 $t$，证明平面波确实呈现波的形态。
+> 2. 求出波的传播方向和速度。
 
-**中文翻译**
-
-考虑"平面波" $e^{ik(x-ct)}$。将 $e^{ik(x-ct)}$ 的实部解释为波的振幅。
-
-1. 对固定的 $t$，证明平面波确实呈现波的形态。
-2. 求出波的传播方向和速度。
+| 单词/短语 | 注释 |
+|-----------|------|
+| plane wave | 平面波：波前为平面的波动形式，最简单的行波模型 |
+| amplitude | 振幅：波偏离平衡位置的最大位移，这里取复指数的实部 |
+| real part | 实部：复数的实数分量，$\text{Re}[e^{i\theta}] = \cos\theta$ |
+| wave number $k$ | 波数：$2\pi/\lambda$，描述单位长度内的波形周期数 |
+| phase velocity | 相速度：等相位面的传播速度，此处 $v_p = \omega/k = c$ |
 
 **知识点**：复指数表示、波的数学描述、相速度
 
@@ -83,21 +87,25 @@ plt.show()
 
 ### E2.1 光线的速度与时间膨胀
 
-**Original Prompt**
-
 > Alice and Bob have relative motion against each other, with velocity $v$. Alice carries a candle, which emits light (speed of light is $c$) perpendicular to the motion direction (wrt Alice).
 >
 > 1. What's the speed of this light ray wrt Bob?
 > 2. What's the travel direction of this light ray wrt Bob?
 > 3. Wrt Bob, the time of Alice slows down. Why doesn't the speed of this light ray slow down? Explain the relation between slower time and speed of light.
+>
+> Alice 和 Bob 之间有相对速度 $v$。Alice 手持一支蜡烛，蜡烛发出垂直于运动方向的光（在 Alice 看来）。
+>
+> 1. 在 Bob 看来，这束光的速度是多少？
+> 2. 在 Bob 看来，这束光的传播方向是什么？
+> 3. 在 Bob 看来，Alice 的时间变慢了。为什么这束光的速度没有"变慢"？解释"时间变慢"与光速之间的关系。
 
-**中文翻译**
-
-Alice 和 Bob 之间有相对速度 $v$。Alice 手持一支蜡烛，蜡烛发出垂直于运动方向的光（在 Alice 看来）。
-
-1. 在 Bob 看来，这束光的速度是多少？
-2. 在 Bob 看来，这束光的传播方向是什么？
-3. 在 Bob 看来，Alice 的时间变慢了。为什么这束光的速度没有"变慢"？解释"时间变慢"与光速之间的关系。
+| 单词/短语 | 注释 |
+|-----------|------|
+| relative motion | 相对运动：两个观察者之间存在非零的相对速度 |
+| perpendicular | 垂直的：光线方向与相对运动方向成 90° 角 |
+| speed of light | 光速：真空中的光速 $c$，在所有惯性系中恒定不变 |
+| reference frame (wrt) | 参考系：用于描述物理事件的坐标系，"wrt" = with respect to |
+| time dilation | 时间膨胀：运动时钟变慢的效应，$\Delta t' = \gamma \Delta t$ |
 
 **知识点**：光速不变 (C)、速度合成、时间和空间的配合
 
@@ -181,13 +189,17 @@ plt.show()
 
 ### E5.1 太阳-地球系统的时空图
 
-**Original Prompt**
-
 > Use the frame that the sun is static, draw a spacetime diagram of the sun's and the earth's motion in $x$-direction (a direction in the earth's orbit plane). Show on this diagram how the sunlight (emitted in the $x$-direction) reaches the earth. The vertical axis is $ct$.
+>
+> 以太阳为静止参考系，在 $x$ 方向（地球轨道平面内的一个方向）画太阳和地球运动的时空图。在图上标出：太阳光（沿 $x$ 方向发出）如何到达地球。纵轴为 $ct$。
 
-**中文翻译**
-
-以太阳为静止参考系，在 $x$ 方向（地球轨道平面内的一个方向）画太阳和地球运动的时空图。在图上标出：太阳光（沿 $x$ 方向发出）如何到达地球。纵轴为 $ct$。
+| 单词/短语 | 注释 |
+|-----------|------|
+| spacetime diagram | 时空图：以空间为横轴、时间为纵轴的几何图示，世界线在其中表示物体的运动历史 |
+| static | 静止的：在所选的参考系中位置不随时间改变 |
+| orbit plane | 轨道平面：地球绕太阳公转所在的平面 |
+| worldline | 世界线：物体在时空图中划出的轨迹，静止物体的世界线是竖直线 |
+| light signal | 光信号：在时空图中以 45° 斜线（null line）表示，满足 $\Delta x = c\Delta t$ |
 
 **知识点**：世界线、光锥、光传播的时空表示
 
@@ -255,13 +267,17 @@ plt.show()
 
 ### E5.2 匀加速运动与 Rindler 视界
 
-**Original Prompt**
-
 > Alice is moving with constant "proper acceleration" in the $x$-direction: $x^2 - c^2 t^2 = \text{constant}$ (to simplify the discussion, let's work in one spatial dimension only). Not all light towards the observer can reach Alice. The region where light cannot reach Alice is called the "Rindler horizon". Draw a spacetime diagram of Alice's motion and find where the Rindler horizon is.
+>
+> Alice 以恒定"固有加速度"沿 $x$ 方向运动：$x^2 - c^2 t^2 = \text{常数}$（为简化，只在一维空间讨论）。并非所有朝 Alice 发出的光都能到达她。光无法到达 Alice 的区域称为"Rindler 视界"。画 Alice 运动的时空图，标出 Rindler 视界的位置。
 
-**中文翻译**
-
-Alice 以恒定"固有加速度"沿 $x$ 方向运动：$x^2 - c^2 t^2 = \text{常数}$（为简化，只在一维空间讨论）。并非所有朝 Alice 发出的光都能到达她。光无法到达 Alice 的区域称为"Rindler 视界"。画 Alice 运动的时空图，标出 Rindler 视界的位置。
+| 单词/短语 | 注释 |
+|-----------|------|
+| proper acceleration | 固有加速度：在物体自身的瞬时静止系中测得的加速度，与坐标加速度不同 |
+| Rindler horizon | Rindler 视界：匀加速观察者无法接收到光信号的时空边界，数学上等同于黑洞视界 |
+| constant | 常数：此处指 $x^2 - c^2t^2$ 为定值，描述双曲线轨迹 |
+| spatial dimension | 空间维度：此处简化为仅考虑一维空间（$x$ 方向） |
+| hyperbola | 双曲线：$x^2 - c^2t^2 = \text{const}$ 在 $ct$-$x$ 平面上是双曲线，渐近线为 $x = \pm ct$ |
 
 **知识点**：固有加速度、双曲线运动、视界
 
@@ -337,13 +353,17 @@ plt.show()
 
 ### E5.3 双生子悖论：静止孪生子实际"看到"什么
 
-**Original Prompt**
-
 > Draw the spacetime diagram of the twin paradox and show what the static twin actually sees (i.e. in the order that light reaches his eyes) about the aging of the moving twin (when she was moving outwards and when she was moving back).
+>
+> 画双生子悖论的时空图，展示静止的孪生子实际"看到"什么（即按照光到达他眼睛的顺序），关于运动孪生子的年龄变化（她向外飞行时和返回飞行时）。
 
-**中文翻译**
-
-画双生子悖论的时空图，展示静止的孪生子实际"看到"什么（即按照光到达他眼睛的顺序），关于运动孪生子的年龄变化（她向外飞行时和返回飞行时）。
+| 单词/短语 | 注释 |
+|-----------|------|
+| twin paradox | 双生子悖论：狭义相对论中，运动孪生子返回后比静止孪生子年轻的"悖论"，由加速度打破对称性 |
+| static twin | 静止孪生子：留在地球（惯性系）的孪生子，其世界线是直线 |
+| aging | 年龄增长：在此指孪生子的原时流逝，运动孪生子的原时更短 |
+| moving outwards / moving back | 向外飞行 / 返回：双生子悖论中运动孪生子的两个阶段，转折涉及加速度 |
+| light reaches his eyes | 光到达眼睛：强调"实际观测"与"理论计算的同时刻"的区别，前者受光传播延迟影响 |
 
 **知识点**：双生子悖论、光传播延迟、相对论多普勒效应
 
@@ -444,16 +464,21 @@ print(f"回程信号到达间隔被压缩因子：{np.sqrt((1-v)/(1+v)):.2f}")
 
 ### E5.4 飞船间距
 
-**Original Prompt**
-
 > An observer A is considered at rest in the whole setup of this question. Two spaceships B and C are equidistant to A and are initially also at rest, and the distance between them is $L$. Now A sends a light signal. After receiving the light signal, B and C immediately start to move at a velocity $v$ in the same direction (neglect the period of acceleration). What is the distance between B and C after they are moving? Give your answer wrt A and wrt B, respectively. Hint: draw a spacetime diagram to find out what happened.
+>
+> 观察者 A 整体静止。两艘飞船 B 和 C 与 A 等距，初始静止，两者间距为 $L$。A 发出光信号后，B 和 C 收到信号后立即以速度 $v$ 向同一方向运动（忽略加速过程）。
+>
+> 1. 在 A 看来，B 和 C 运动后的间距是多少？
+> 2. 在 B 看来，间距是多少？
 
-**中文翻译**
-
-观察者 A 整体静止。两艘飞船 B 和 C 与 A 等距，初始静止，两者间距为 $L$。A 发出光信号后，B 和 C 收到信号后立即以速度 $v$ 向同一方向运动（忽略加速过程）。
-
-1. 在 A 看来，B 和 C 运动后的间距是多少？
-2. 在 B 看来，间距是多少？
+| 单词/短语 | 注释 |
+|-----------|------|
+| at rest | 静止：在所考虑的参考系中速度为零 |
+| equidistant | 等距的：B 和 C 到 A 的距离相等，即 A 位于 B 和 C 的中点 |
+| light signal | 光信号：以光速 $c$ 传播的电磁波信号，用于同步时钟或触发事件 |
+| velocity | 速度：这里指 B 和 C 在接收到光信号后获得的恒定速度 $v$ |
+| length contraction | 长度收缩：运动方向上物体长度缩短为原长的 $1/\gamma$ |
+| simultaneity | 同时性：不同参考系中"同时"的判断不同，这是本题的核心难点 |
 
 **知识点**：长度收缩、同时性的相对性、时空图分析
 
@@ -553,21 +578,25 @@ print(f"B 系中间距: 需用同时性切片 — 约 gamma*L = {gamma*L:.3f}")
 
 ### E7.1 用洛伦兹变换推导三大效应
 
-**Original Prompt**
-
 > Use Lorentz transformation to calculate:
 >
 > 1. Time dilation.
 > 2. Rule contraction.
 > 3. For two events which happened at the same time wrt Alice, calculate the time difference wrt Bob, given Bob's speed $v$, and the distance between the two events being $L$ wrt Alice.
+>
+> 使用洛伦兹变换计算：
+>
+> 1. 时间膨胀
+> 2. 尺子收缩
+> 3. 对 Alice 而言同时发生、相距 $L$ 的两个事件，在 Bob 看来时间差是多少（给定 Bob 的速度 $v$）？
 
-**中文翻译**
-
-使用洛伦兹变换计算：
-
-1. 时间膨胀
-2. 尺子收缩
-3. 对 Alice 而言同时发生、相距 $L$ 的两个事件，在 Bob 看来时间差是多少（给定 Bob 的速度 $v$）？
+| 单词/短语 | 注释 |
+|-----------|------|
+| Lorentz transformation | 洛伦兹变换：惯性系之间的坐标变换，保持光速不变和 $ds^2$ 不变 |
+| time dilation | 时间膨胀：$\Delta t' = \gamma \Delta t$，运动时钟变慢 |
+| length contraction (rule contraction) | 长度收缩（尺子收缩）：运动方向上 $L' = L/\gamma$，原长被缩短 |
+| events | 事件：时空中的点 $(ct, x, y, z)$，是洛伦兹变换作用的对象 |
+| simultaneity | 同时性：在一个参考系中同时发生的两个事件，在另一个参考系中一般不同时 |
 
 **知识点**：洛伦兹变换的熟练运用
 
@@ -670,19 +699,23 @@ print(f"   gamma*v*L/c^2 = {gamma * v * L:.3f}  ✓")
 
 ### E7.2 速度叠加实例
 
-**Original Prompt**
-
 > Alice is moving away from Bob with velocity $\vec{v} = (v, 0, 0)$, and sending out light rays.
 >
 > 1. If the light ray is along $x_A$ direction ($x$ direction wrt Alice), calculate the velocity of the light ray $\vec{v}_B = (v_{Bx}, v_{By}, v_{Bz})$ wrt Bob.
 > 2. If the light ray is along $y_A$ direction ($y$ direction wrt Alice), calculate the velocity of the light ray $\vec{v}_B = (v_{Bx}, v_{By}, v_{Bz})$ wrt Bob.
+>
+> Alice 以速度 $\vec{v} = (v, 0, 0)$ 远离 Bob，并向各方向发出光线。
+>
+> 1. 若光线沿 $x_A$ 方向（Alice 的 $x$ 方向），计算 Bob 看来光的速度 $\vec{v}_B$。
+> 2. 若光线沿 $y_A$ 方向（Alice 的 $y$ 方向），计算 Bob 看来光的速度 $\vec{v}_B$。
 
-**中文翻译**
-
-Alice 以速度 $\vec{v} = (v, 0, 0)$ 远离 Bob，并向各方向发出光线。
-
-1. 若光线沿 $x_A$ 方向（Alice 的 $x$ 方向），计算 Bob 看来光的速度 $\vec{v}_B$。
-2. 若光线沿 $y_A$ 方向（Alice 的 $y$ 方向），计算 Bob 看来光的速度 $\vec{v}_B$。
+| 单词/短语 | 注释 |
+|-----------|------|
+| velocity addition | 速度叠加：相对论中速度合成并非简单相加，公式为 $v_B = \frac{v_A + v}{1 + v_A v/c^2}$ |
+| light ray | 光线：以光速 $c$ 传播的电磁辐射，在所有惯性系中速率恒为 $c$ |
+| direction | 方向：光在 Alice 系中沿 $x_A$ 或 $y_A$，变换到 Bob 系后方向发生偏转 |
+| aberration of light | 光行差：由于观察者运动导致的光源方向视偏移，$\tan\theta_B = v_{By}/v_{Bx}$ |
+| vector component | 矢量分量：$v_{Bx}$ 和 $v_{By}$ 分别是 Bob 系中光速的 $x$ 和 $y$ 分量 |
 
 **知识点**：相对论速度叠加公式
 
@@ -734,15 +767,19 @@ print(f"                    方向偏转角 = {np.degrees(np.arctan2(vBy, vBx)):
 
 ### E7.3 介质中的光速
 
-**Original Prompt**
-
 > Consider the speed of light in static air (refractive index $n = 1.0003$). How does the speed of light in the air change wrt moving observers moving with speed $v$? How does the speed of light in the air change when there is a wind with speed $v$?
+>
+> 考虑光在静止空气中的速度（折射率 $n = 1.0003$）。
+> 1. 对于以 $v$ 运动的观察者，空气中的光速如何变化？
+> 2. 当有速度为 $v$ 的风时，空气中的光速如何变化？
 
-**中文翻译**
-
-考虑光在静止空气中的速度（折射率 $n = 1.0003$）。
-1. 对于以 $v$ 运动的观察者，空气中的光速如何变化？
-2. 当有速度为 $v$ 的风时，空气中的光速如何变化？
+| 单词/短语 | 注释 |
+|-----------|------|
+| refractive index | 折射率 $n$：真空中光速与介质中光速之比，$c_{\text{medium}} = c/n$ |
+| static air | 静止空气：空气作为光传播介质，在实验室系中静止 |
+| moving observer | 运动观察者：相对于介质运动的观察者，测得的光速需用速度叠加公式计算 |
+| Fresnel drag coefficient | 菲涅耳曳引系数 $f = 1 - 1/n^2$：介质部分"曳引"光的程度，由菲索实验验证 |
+| medium | 介质：光在其中传播的物质（空气、水等），光速低于真空光速 $c$ |
 
 **知识点**：介质中的速度叠加、菲涅耳曳引、相对论速度叠加 vs. 经典速度叠加
 
@@ -804,13 +841,17 @@ print(f"对 n≈1 的空气，曳引效应极小（f≈{fresnel_coeff:.4f}）")
 
 ### E8.1 时空间隔的洛伦兹不变性
 
-**Original Prompt**
-
 > Show that under Lorentz transformation, the spacetime interval $ds^2$ is unchanged (although $t$ and $x$ change). For simplicity, work in two dimensions $t$ and $x$ only (i.e. no motion or rotation in $y$ and $z$ directions).
+>
+> 证明在洛伦兹变换下，时空间隔 $ds^2$ 保持不变（尽管 $t$ 和 $x$ 各自会改变）。为简化，只考虑 $t$ 和 $x$ 两个维度。
 
-**中文翻译**
-
-证明在洛伦兹变换下，时空间隔 $ds^2$ 保持不变（尽管 $t$ 和 $x$ 各自会改变）。为简化，只考虑 $t$ 和 $x$ 两个维度。
+| 单词/短语 | 注释 |
+|-----------|------|
+| spacetime interval $ds^2$ | 时空间隔：$-c^2dt^2 + dx^2 + dy^2 + dz^2$，闵可夫斯基时空中的"距离"，是洛伦兹不变量 |
+| Lorentz invariant | 洛伦兹不变量：在所有惯性参考系中取值相同的量，$ds^2$ 是最基本的例子 |
+| Minkowski metric | 闵可夫斯基度规 $\eta_{\mu\nu} = \text{diag}(-1, 1, 1, 1)$：定义时空间隔的"度规张量" |
+| unchanged | 不变：指 $ds^2$ 的数值在洛伦兹变换前后完全相等，虽然 $dt$ 和 $dx$ 各自改变 |
+| two dimensions | 两维：简化为 $(t, x)$ 两个坐标，$ds^2 = -c^2dt^2 + dx^2$ |
 
 **知识点**：闵可夫斯基度规、洛伦兹不变量、4-矢量
 
@@ -886,13 +927,17 @@ for _ in range(5):
 
 ### E8.2 时空中的 4-速度
 
-**Original Prompt**
-
 > Show that using proper time, everyone is moving in spacetime (not space) with the same 4-speed (i.e. the size of the 4-velocity $dx^\mu/d\tau$).
+>
+> 证明：使用原时，所有物体在时空中（而非空间中）以相同的 4-速度运动（即 4-速度 $dx^\mu/d\tau$ 的大小）。
 
-**中文翻译**
-
-证明：使用原时，所有物体在时空中（而非空间中）以相同的 4-速度运动（即 4-速度 $dx^\mu/d\tau$ 的大小）。
+| 单词/短语 | 注释 |
+|-----------|------|
+| proper time $\tau$ | 原时：随物体一起运动的时钟所记录的时间，$d\tau = dt/\gamma$，是洛伦兹不变量 |
+| 4-velocity $u^\mu$ | 4-速度：$dx^\mu/d\tau = (\gamma c, \gamma \vec{v})$，对原时求导得到的四维矢量 |
+| 4-speed | 4-速度的大小：$|u| = \sqrt{-\eta_{\mu\nu}u^\mu u^\nu} = c$，所有物体在时空中"速率"相同 |
+| Minkowski norm | 闵可夫斯基范数：$|u|^2 = -(u^0)^2 + (u^1)^2 + (u^2)^2 + (u^3)^2$，与欧几里得范数符号不同 |
+| rest frame | 静止系：物体在其中速度为零的参考系，此时 $u^\mu = (c, 0, 0, 0)$ |
 
 **知识点**：4-速度、原时、闵可夫斯基度规
 
@@ -952,8 +997,6 @@ print(f"\n结论：|u| = c = 1（对所有 v），即所有物体在时空中以
 
 ### E9.1 从动量积分推导动能
 
-**Original Prompt**
-
 > Let us use the relativistic momentum $p = \gamma mv$ to derive the expression of the kinetic energy, in a different way from what we did in class.
 >
 > Consider a ball at rest at $x = 0$ with mass $m$, and act a constant force $F$ on this ball toward the $x$ direction. The ball then accelerates because of the force.
@@ -963,14 +1006,22 @@ print(f"\n结论：|u| = c = 1（对所有 v），即所有物体在时空中以
 > $$K = \int_0^{x_1} F\,dx = \int_0^{x_1} \frac{dp}{dt} dx = \int_0^{p_1} v\,dp = \int_0^{v_1} v\,d(\gamma mv)$$
 >
 > where $x_1$, $p_1$ and $v_1$ are the distance, momentum, and velocity at a later time $t_1$. Continue the calculation and derive the kinetic energy of the ball at time $t_1$.
+>
+> 使用相对论动量 $p = \gamma mv$ 来推导动能的表达式。考虑在 $x=0$ 处静止的质量为 $m$ 的小球，沿 $x$ 方向施加恒力 $F$。注意 $F = dp/dt$，动能可以通过力做的功计算：
+>
+> $$K = \int_0^{x_1} F\,dx = \int_0^{x_1} \frac{dp}{dt} dx = \int_0^{p_1} v\,dp = \int_0^{v_1} v\,d(\gamma mv)$$
+>
+> 其中 $x_1$、$p_1$ 和 $v_1$ 分别是稍后时刻 $t_1$ 的距离、动量和速度。完成计算，推导出 $t_1$ 时刻小球的动能。
 
-**中文翻译**
-
-使用相对论动量 $p = \gamma mv$ 来推导动能的表达式。考虑在 $x=0$ 处静止的质量为 $m$ 的小球，沿 $x$ 方向施加恒力 $F$。注意 $F = dp/dt$，动能可以通过力做的功计算：
-
-$$K = \int_0^{x_1} F\,dx = \int_0^{x_1} \frac{dp}{dt} dx = \int_0^{p_1} v\,dp = \int_0^{v_1} v\,d(\gamma mv)$$
-
-完成计算，推导出动能的表达式。
+| 单词/短语 | 注释 |
+|-----------|------|
+| relativistic momentum | 相对论动量：$p = \gamma mv$，不同于牛顿力学中的 $p = mv$，在低速极限下回归经典形式 |
+| kinetic energy | 动能：物体因运动而具有的能量，相对论中 $K = (\gamma - 1)mc^2$ |
+| constant force | 恒力：大小和方向不变的力，$F = dp/dt$，注意在相对论中恒力不产生恒加速度 |
+| work done | 力所做的功：$W = \int F\,dx$，功-能定理在相对论中依然成立 |
+| integration by parts | 分部积分：$\int v\,dp = vp - \int p\,dv$，是推导动能的两种等价方法之一 |
+| rest energy | 静止能量：$E_0 = mc^2$，物体在静止时固有的能量，$E = K + E_0 = \gamma mc^2$ |
+| work-energy theorem | 功-能定理：$K = W$，合外力做的功等于动能的变化量 |
 
 **知识点**：相对论动能、功-能定理、分部积分
 
@@ -1069,9 +1120,16 @@ print(f"  K ≈ γmc² = {gamma_high:.0f} × mc²")
 
 ## 📚 补充阅读：爱因斯坦的原始论文
 
-**Original Prompt**
-
 > Read Einstein's original papers on relativity. Nowadays Einstein's original papers can be easily found online. For example, his first paper. You will find most parts of the paper accessible except that in electrodynamics he used different notations from modern convention.
+>
+> 阅读爱因斯坦关于相对论的原始论文。如今爱因斯坦的原始论文在网上很容易找到，例如他的第一篇论文。你会发现论文的大部分内容是易读的，只是在电动力学部分他使用了与现代不同的符号约定。
+
+| 单词/短语 | 注释 |
+|-----------|------|
+| original papers | 原始论文：指爱因斯坦 1905 年在《物理学年鉴》上发表的相对论奠基性论文 |
+| electrodynamics | 电动力学：研究电磁场与带电粒子相互作用的物理学分支，狭义相对论的历史出发点 |
+| notations | 符号约定：数学和物理中的记号体系，早期论文的记号与现代教科书有所不同 |
+| accessible | 可读的、易理解的：学过狭义相对论的读者可以理解论文的大部分推导过程 |
 
 推荐阅读爱因斯坦 1905 年的原始论文 **"On the Electrodynamics of Moving Bodies"**（《论动体的电动力学》）。
 
@@ -1084,33 +1142,6 @@ print(f"  K ≈ γmc² = {gamma_high:.0f} × mc²")
   3. 理解历史背景——迈克尔逊-莫雷实验、以太假设的危机
 
 另外推荐阅读 **1905 年的第二篇论文** "Does the Inertia of a Body Depend Upon Its Energy Content?"，其中首次提出 $E = mc^2$（仅 3 页！非常精炼）。
-
----
-
-## 🔑 核心词汇索引
-
-| English | 中文 | 所属板块 |
-|---------|------|---------|
-| plane wave | 平面波 | A |
-| phase velocity | 相速度 | A |
-| light cone | 光锥 | B |
-| worldline | 世界线 | B |
-| Rindler horizon | Rindler 视界 | B |
-| twin paradox | 双生子悖论 | B |
-| length contraction | 长度收缩 | B, C |
-| relativity of simultaneity | 同时性的相对性 | B, C |
-| Lorentz transformation | 洛伦兹变换 | C |
-| velocity addition | 速度叠加 | C |
-| Fresnel drag coefficient | 菲涅耳曳引系数 | C |
-| spacetime interval ($ds^2$) | 时空间隔 | D |
-| Lorentz invariant | 洛伦兹不变量 | D |
-| 4-velocity | 4-速度 | D |
-| proper time ($d\tau$) | 原时 | D |
-| Minkowski metric | 闵可夫斯基度规 | D |
-| kinetic energy ($K$) | 动能 | E |
-| rest energy ($E_0$) | 静止能量 | E |
-| work-energy theorem | 功-能定理 | E |
-| integration by parts | 分部积分 | E |
 
 ---
 
